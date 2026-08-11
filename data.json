@@ -78,7 +78,7 @@
           "row": 1,
           "colSpan": 28,
           "rowSpan": 27,
-          "zIndex": 6,
+          "zIndex": 14,
           "fixedGrid": true,
           "hidden": false,
           "columnItems": [
@@ -263,7 +263,7 @@
           "colSpan": 8,
           "rowSpan": 13,
           "width": 8,
-          "zIndex": 5,
+          "zIndex": 15,
           "fixedGrid": true,
           "hidden": false,
           "subtitlePosition": "below",
@@ -274,7 +274,7 @@
           "subtitle": "Choosing a difficulty for an ability check.",
           "type": "table",
           "color": "#b3299e",
-          "columns": 1,
+          "columns": 2,
           "items": [
             "Task difficulty | DC",
             "Very Easy | 5",
@@ -291,7 +291,7 @@
           "colSpan": 11,
           "rowSpan": 13,
           "width": 11,
-          "zIndex": 1,
+          "zIndex": 13,
           "fixedGrid": true,
           "hidden": false,
           "concept": "character"
@@ -315,7 +315,7 @@
           "colSpan": 9,
           "rowSpan": 13,
           "width": 9,
-          "zIndex": 3,
+          "zIndex": 10,
           "fixedGrid": true,
           "hidden": false,
           "subtitlePosition": "below",
@@ -340,7 +340,7 @@
           "colSpan": 12,
           "rowSpan": 9,
           "width": 12,
-          "zIndex": 8,
+          "zIndex": 12,
           "fixedGrid": true,
           "hidden": false,
           "concept": "combat",
@@ -391,7 +391,7 @@
           "type": "table",
           "icon": "",
           "color": "#b3299e",
-          "columns": 1,
+          "columns": 3,
           "items": [
             "EXP | Level | Proficiency Bonus (PB)",
             "0 | 1 |",
@@ -420,7 +420,7 @@
           "colSpan": 7,
           "rowSpan": 26,
           "width": 7,
-          "zIndex": 8,
+          "zIndex": 21,
           "fixedGrid": true,
           "hidden": false,
           "concept": "character",
@@ -602,42 +602,228 @@
           "type": "table",
           "icon": "",
           "color": "#238ac0",
-          "columns": 1,
+          "columns": 3,
           "items": [
-            "Ale | Gallon | 2 SP",
-            " | Mug | 4 CP",
-            "Banquet (per person) | | 10 GP",
-            "Bread (loaf) | | 2 CP",
-            "Cheese (wedge) | | 1 SP",
-            "Inn Stay per Day | |",
-            " | Squalid | 7 CP",
-            " | Poor | 1 SP",
-            " | Modest | 5 SP",
-            " | Comfortable | 8 SP",
-            " | Wealthy | 2 GP",
-            " | Aristocratic | 4 GP",
-            "Meal | |",
-            " | Squalid | 1 CP",
-            " | Poor | 2 CP",
-            " | Modest | 1 SP",
-            " | Comfortable | 2 SP",
-            " | Wealthy | 3 SP",
-            " | Aristocratic | 6 SP",
-            "Meat, chunk | | 3 SP",
-            "Wine | |",
-            " | Common | 2 SP",
-            " | Fine (bottle) | 10 GP"
+            "Ale  |  Gallon  |  2 SP",
+            "  |  Mug  |  4 CP",
+            "Banquet (per person)  |   |  10 GP",
+            "Bread (loaf)  |   |  2 CP",
+            "Cheese (wedge)  |   |  1 SP",
+            "Inn Stay per Day  |   | ",
+            "  |  Squalid  |  7 CP",
+            "  |  Poor  |  1 SP",
+            "  |  Modest  |  5 SP",
+            "  |  Comfortable  |  8 SP",
+            "  |  Wealthy  |  2 GP",
+            "  |  Aristocratic  |  4 GP",
+            "Meal  |   | ",
+            "  |  Squalid  |  1 CP",
+            "  |  Poor  |  2 CP",
+            "  |  Modest  |  1 SP",
+            "  |  Comfortable  |  2 SP",
+            "  |  Wealthy  |  3 SP",
+            "  |  Aristocratic  |  6 SP",
+            "Meat, chunk  |   |  3 SP",
+            "Wine  |   | ",
+            "  |  Common  |  2 SP",
+            "  |  Fine (bottle)  |  10 GP"
           ],
           "column": 25,
           "row": 15,
           "colSpan": 9,
           "rowSpan": 26,
           "width": 9,
-          "zIndex": 4,
+          "zIndex": 22,
           "fixedGrid": true,
           "hidden": false,
           "concept": "exploration",
-          "subtitlePosition": "beside"
+          "subtitlePosition": "beside",
+          "tableRows": [
+            {
+              "cells": [
+                "Ale ",
+                " Gallon ",
+                " 2 SP"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                " ",
+                " Mug ",
+                " 4 CP"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "Banquet (per person) ",
+                " ",
+                " 10 GP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "Bread (loaf) ",
+                " ",
+                " 2 CP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "Cheese (wedge) ",
+                " ",
+                " 1 SP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "Inn Stay per Day ",
+                " ",
+                ""
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                " ",
+                " Squalid ",
+                " 7 CP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                " ",
+                " Poor ",
+                " 1 SP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                " ",
+                " Modest ",
+                " 5 SP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                " ",
+                " Comfortable ",
+                " 8 SP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                " ",
+                " Wealthy ",
+                " 2 GP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                " ",
+                " Aristocratic ",
+                " 4 GP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "Meal ",
+                " ",
+                ""
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                " ",
+                " Squalid ",
+                " 1 CP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                " ",
+                " Poor ",
+                " 2 CP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                " ",
+                " Modest ",
+                " 1 SP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                " ",
+                " Comfortable ",
+                " 2 SP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                " ",
+                " Wealthy ",
+                " 3 SP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                " ",
+                " Aristocratic ",
+                " 6 SP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "Meat, chunk ",
+                " ",
+                " 3 SP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "Wine ",
+                " ",
+                ""
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                " ",
+                " Common ",
+                " 2 SP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                " ",
+                " Fine (bottle) ",
+                " 10 GP"
+              ],
+              "separator": true
+            }
+          ]
         },
         {
           "title": "Suffocation",
@@ -664,7 +850,7 @@
           "subtitle": "Pick the most relevant check for the moment.",
           "type": "table",
           "color": "#b3299e",
-          "columns": 1,
+          "columns": 2,
           "items": [
             "Situation | Check",
             "Notice a hidden detail | WIS (Perception)",
@@ -680,7 +866,7 @@
           "colSpan": 9,
           "rowSpan": 13,
           "width": 9,
-          "zIndex": 7,
+          "zIndex": 14,
           "fixedGrid": true,
           "hidden": false,
           "concept": "character",
@@ -688,7 +874,7 @@
         },
         {
           "title": "Stealth / sneak",
-          "subtitle": "Use when a creature hides or moves unseen.",
+          "subtitle": "",
           "type": "dot-list",
           "color": "#6b5a8e",
           "columns": 1,
@@ -697,9 +883,9 @@
             "• Make a Dexterity (Stealth) check while heavily obscured, behind cover, or out of line of sight.",
             "• The check total becomes the DC for a creature to find you with Wisdom (Perception).",
             "[!] Stay hidden",
-            "• You are revealed after making a sound louder than a whisper, attacking, or casting a spell with a verbal component.",
+            "• You are revealed after making a louder than a whisper, attacking, or casting a spell with a verbal component.",
             "[↗] Invisible",
-            "• You have advantage on attacks and enemies have disadvantage attacking you, unless they can somehow see you."
+            "• Advantage on attacks and enemies have disadvantage attacking you, unless they can somehow see you."
           ],
           "column": 32,
           "row": 1,
@@ -710,7 +896,18 @@
           "fixedGrid": true,
           "hidden": false,
           "subtitlePosition": "beside",
-          "concept": "reference"
+          "concept": "reference",
+          "columnItems": [
+            [
+              "[◉] Hide",
+              "• Make a Dexterity (Stealth) check while heavily obscured, behind cover, or out of line of sight.",
+              "• The check total becomes the DC for a creature to find you with Wisdom (Perception).",
+              "[!] Stay hidden",
+              "• You are revealed after making a louder than a whisper, attacking, or casting a spell with a verbal component.",
+              "[↗] Invisible",
+              "• Advantage on attacks and enemies have disadvantage attacking you, unless they can somehow see you."
+            ]
+          ]
         },
         {
           "title": "Jump distance",
@@ -768,7 +965,7 @@
           "items": [
             "1d10 — Burned by hot coals, hit by falling bookcase, pricked by a needle.",
             "2d10 — Struck by lightning, caught in a collapsing tunnel.",
-            "4d10 — Hit by falling rubble in a collapsing cavern.",
+            "4d10 — Hit by rubble in a collapsing cavern.",
             "10d10 — Crushed by compacting walls, hit by a crashing flying ship."
           ],
           "column": 1,
@@ -776,11 +973,19 @@
           "colSpan": 9,
           "rowSpan": 11,
           "width": 9,
-          "zIndex": 10,
+          "zIndex": 18,
           "fixedGrid": true,
           "hidden": false,
           "concept": "conditions",
-          "subtitlePosition": "below"
+          "subtitlePosition": "below",
+          "columnItems": [
+            [
+              "1d10 — Burned by hot coals, hit by falling bookcase, pricked by a needle.",
+              "2d10 — Struck by lightning, caught in a collapsing tunnel.",
+              "4d10 — Hit by rubble in a collapsing cavern.",
+              "10d10 — Crushed by compacting walls, hit by a crashing flying ship."
+            ]
+          ]
         },
         {
           "title": "Random mob situations",
@@ -789,7 +994,7 @@
           "icon": "◆",
           "concept": "combat",
           "color": "#3e7c7a",
-          "columns": 1,
+          "columns": 4,
           "width": 15,
           "height": 90,
           "colSpan": 15,
@@ -802,16 +1007,16 @@
             "d12  |  Mob  |  Quick stats  |  Fight / Steal / Outsmart",
             "1  |  Goblin scouts  |  CR 1/4 · 50 XP · AC 15 · HP 7  |  Fight: ambush the lookouts. Steal: take their map or keys. Outsmart: fake a patrol order.",
             "2  |  Kobold trap team  |  CR 1/8 · 25 XP · AC 12 · HP 5  |  Fight: avoid the trapped ground. Steal: lure them away with a shiny object. Outsmart: turn their trap back on them.",
-            "3  |  Bandit toll crew  |  CR 1/8 · 25 XP · AC 12 · HP 11  |  Fight: drop the leader or force a surrender. Steal: distract them from the toll chest. Outsmart: expose their employer's betrayal.",
-            "4  |  Skeleton patrol  |  CR 1/4 · 50 XP · AC 13 · HP 13  |  Fight: block the arrows. Steal: take the relic they guard. Outsmart: lure them into a narrow dead end.",
+            "3  |  Bandit toll crew  |  CR 1/8 · 25 XP · AC 12 · HP 11  |  Fight: drop the leader/force a surrender. Steal: distract from the toll chest. Outsmart: expose their employer's betrayal.",
+            "4  |  Skeleton patrol  |  CR 1/4 · 50 XP · AC 13 · HP 13  |  Fight: block arrows. Steal: take the relic they guard. Outsmart: lure them into a end.",
             "5  |  Wolf pack  |  CR 1/4 · 50 XP · AC 13 · HP 11  |  Fight: protect isolated targets. Steal: bait them away from their cache. Outsmart: use fire, height, or a decoy.",
             "6  |  Cultists at a ritual  |  CR 1/8 · 25 XP · AC 12 · HP 9  |  Fight: disrupt the ritual leader. Steal: take the relic while they chant. Outsmart: invent a false omen.",
             "7  |  Giant spider  |  CR 1 · 200 XP · AC 14 · HP 26  |  Fight: avoid webs and focus the spider. Steal: cut free a cocooned item. Outsmart: lure it toward easier prey.",
             "8  |  Harpy  |  CR 1 · 200 XP · AC 11 · HP 38  |  Fight: stop the song and deny high ground. Steal: take the shiny hoard while distracted. Outsmart: use a false voice or echo.",
             "9  |  Bugbear enforcer  |  CR 1 · 200 XP · AC 16 · HP 27  |  Fight: prevent its ambush. Steal: redirect it toward a rival gang. Outsmart: exploit its overconfidence.",
-            "10  |  Mimic  |  CR 2 · 450 XP · AC 12 · HP 58  |  Fight: do not touch unknown treasure. Steal: identify and take the real prize. Outsmart: bait it with a better object.",
-            "11  |  Owlbear  |  CR 3 · 700 XP · AC 13 · HP 59  |  Fight: avoid the nest and control the terrain. Steal: take food or eggs only after a distraction. Outsmart: lure it away with a carcass.",
-            "12  |  Troll  |  CR 5 · 1800 XP · AC 15 · HP 84  |  Fight: use fire or acid to stop regeneration. Steal: enter while it hunts. Outsmart: lure it away with a bigger meal."
+            "10  |  Mimic  |  CR 2 · 450 XP · AC 12 · HP 58  |  Fight: do not touch unknown treasure. Steal: identify and take the real prize. Outsmart: bait it.",
+            "11  |  Owlbear  |  CR 3 · 700 XP · AC 13 · HP 59  |  Fight: avoid the nest and control the terrain. Steal: take food or eggs only after a distraction. Outsmart: lure it away.",
+            "12  |  Troll  |  CR 5 · 1800 XP · AC 15 · HP 84  |  Fight: use fire or acid to stop regeneration. Steal: enter while it hunts. Outsmart: lure it away with a meal."
           ],
           "hidden": false,
           "tableRows": [
@@ -831,7 +1036,7 @@
                 " CR 1/4 · 50 XP · AC 15 · HP 7 ",
                 " Fight: ambush the lookouts. Steal: take their map or keys. Outsmart: fake a patrol order."
               ],
-              "separator": false
+              "separator": true
             },
             {
               "cells": [
@@ -847,7 +1052,7 @@
                 "3 ",
                 " Bandit toll crew ",
                 " CR 1/8 · 25 XP · AC 12 · HP 11 ",
-                " Fight: drop the leader or force a surrender. Steal: distract them from the toll chest. Outsmart: expose their employer's betrayal."
+                " Fight: drop the leader/force a surrender. Steal: distract from the toll chest. Outsmart: expose their employer's betrayal."
               ],
               "separator": true
             },
@@ -856,7 +1061,7 @@
                 "4 ",
                 " Skeleton patrol ",
                 " CR 1/4 · 50 XP · AC 13 · HP 13 ",
-                " Fight: block the arrows. Steal: take the relic they guard. Outsmart: lure them into a narrow dead end."
+                " Fight: block arrows. Steal: take the relic they guard. Outsmart: lure them into a end."
               ],
               "separator": true
             },
@@ -910,7 +1115,7 @@
                 "10 ",
                 " Mimic ",
                 " CR 2 · 450 XP · AC 12 · HP 58 ",
-                " Fight: do not touch unknown treasure. Steal: identify and take the real prize. Outsmart: bait it with a better object."
+                " Fight: do not touch unknown treasure. Steal: identify and take the real prize. Outsmart: bait it."
               ],
               "separator": true
             },
@@ -919,7 +1124,7 @@
                 "11 ",
                 " Owlbear ",
                 " CR 3 · 700 XP · AC 13 · HP 59 ",
-                " Fight: avoid the nest and control the terrain. Steal: take food or eggs only after a distraction. Outsmart: lure it away with a carcass."
+                " Fight: avoid the nest and control the terrain. Steal: take food or eggs only after a distraction. Outsmart: lure it away."
               ],
               "separator": true
             },
@@ -928,7 +1133,7 @@
                 "12 ",
                 " Troll ",
                 " CR 5 · 1800 XP · AC 15 · HP 84 ",
-                " Fight: use fire or acid to stop regeneration. Steal: enter while it hunts. Outsmart: lure it away with a bigger meal."
+                " Fight: use fire or acid to stop regeneration. Steal: enter while it hunts. Outsmart: lure it away with a meal."
               ],
               "separator": false
             }
@@ -946,8 +1151,8 @@
           "color": "#b3299e",
           "columns": 1,
           "items": [
-            "Player  |  Good 1  |  Good 2  |  Bad",
-            " |   |   | ",
+            "Player | Good | Neutral | Bad",
+            " |  |  | ",
             " |   |   | ",
             " |   |   | ",
             " |   |   | ",
@@ -958,25 +1163,25 @@
           "colSpan": 14,
           "rowSpan": 25,
           "width": 14,
-          "zIndex": 10,
+          "zIndex": 43,
           "fixedGrid": true,
           "hidden": false,
           "concept": "character",
           "tableRows": [
             {
               "cells": [
-                "Player ",
-                " Good 1 ",
-                " Good 2 ",
-                " Bad"
+                "Player",
+                "Good",
+                "Neutral",
+                "Bad"
               ],
               "separator": false
             },
             {
               "cells": [
                 "",
-                " ",
-                " ",
+                "",
+                "",
                 ""
               ]
             },
@@ -1019,30 +1224,131 @@
           "subtitle": "Names and quick stats to roll at the table.",
           "type": "table",
           "color": "#c9683e",
-          "columns": 1,
+          "columns": 4,
           "items": [
-            "d20 | Name | Role / stats",
-            "1 | Alden | Guard, STR +2",
-            "2 | Brynn | Merchant, WIS +1",
-            "3 | Cora | Scout, DEX +3",
-            "4 | Dain | Priest, WIS +3",
-            "5 | Elira | Scholar, INT +4",
-            "6 | Fen | Sailor, CON +2",
-            "7 | Greta | Innkeeper, CHA +2",
-            "8 | Hakon | Smith, STR +3",
-            "9 | Ilyra | Spy, DEX +4",
-            "10 | Joren | Hunter, WIS +2"
+            "d20  |  Name  |  Role | stats",
+            "1  |  Alden  |  Guard | STR +2",
+            "2  |  Brynn  |  Merchant | WIS +1",
+            "3  |  Cora  |  Scout | DEX +3",
+            "4  |  Dain  |  Priest | WIS +3",
+            "5  |  Elira  |  Scholar | INT +4",
+            "6  |  Fen  |  Sailor | CON +2",
+            "7  |  Greta  |  Innkeeper | CHA +2",
+            "8  |  Hakon  |  Smith | STR +3",
+            "9  |  Ilyra  |  Spy | DEX +4",
+            "10  |  Joren  |  Hunter | WIS +2"
           ],
-          "column": 27,
-          "row": 17,
-          "colSpan": 11,
-          "rowSpan": 24,
-          "width": 11,
-          "zIndex": 8,
+          "column": 31,
+          "row": 26,
+          "colSpan": 10,
+          "rowSpan": 15,
+          "width": 10,
+          "zIndex": 52,
           "fixedGrid": true,
           "hidden": false,
           "concept": "conditions",
-          "subtitlePosition": "below"
+          "subtitlePosition": "below",
+          "tableRows": [
+            {
+              "cells": [
+                "d20 ",
+                " Name ",
+                " Role",
+                "stats"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "1 ",
+                " Alden ",
+                " Guard",
+                "STR +2"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "2 ",
+                " Brynn ",
+                " Merchant",
+                "WIS +1"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "3 ",
+                " Cora ",
+                " Scout",
+                "DEX +3"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "4 ",
+                " Dain ",
+                " Priest",
+                "WIS +3"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "5 ",
+                " Elira ",
+                " Scholar",
+                "INT +4"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "6 ",
+                " Fen ",
+                " Sailor",
+                "CON +2"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "7 ",
+                " Greta ",
+                " Innkeeper",
+                "CHA +2"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "8 ",
+                " Hakon ",
+                " Smith",
+                "STR +3"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "9 ",
+                " Ilyra ",
+                " Spy",
+                "DEX +4"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "10 ",
+                " Joren ",
+                " Hunter",
+                "WIS +2"
+              ],
+              "separator": false
+            }
+          ]
         },
         {
           "title": "NEW AREA",
@@ -1067,7 +1373,7 @@
           "colSpan": 11,
           "rowSpan": 16,
           "width": 11,
-          "zIndex": 9,
+          "zIndex": 33,
           "fixedGrid": true,
           "hidden": false,
           "concept": "reference",
@@ -1092,7 +1398,7 @@
           "subtitle": "",
           "type": "table",
           "color": "#238ac0",
-          "columns": 1,
+          "columns": 2,
           "items": [
             "Item | Cost",
             "Torch | 1 CP",
@@ -1112,7 +1418,7 @@
           "colSpan": 6,
           "rowSpan": 15,
           "width": 6,
-          "zIndex": 4,
+          "zIndex": 53,
           "fixedGrid": true,
           "hidden": false,
           "concept": "exploration",
@@ -1126,26 +1432,56 @@
           "columns": 1,
           "items": [
             "[✦] Found object",
-            "• A cracked sign, a lost button, a cold coin, or a letter with no name.",
-            "[♨] Food and drink",
-            "• Something burnt, overly sweet, spiced, sour, or unexpectedly fresh.",
+            "• Cracked sign, lost button, cold coin, nameless letter.",
+            "[♨] Food / drink",
+            "• Burnt, sweet, spiced, sour, unexpectedly fresh.",
             "[⚑] Clothing",
-            "• A missing glove, bright sash, muddy hem, or unusual uniform.",
+            "• Missing glove, bright sash, muddy hem, unusual uniform.",
             "[⌖] Local detail",
-            "• A custom, warning, rumour, payment, or small superstition.",
+            "• Custom, warning, rumour, payment, superstition.",
             "[◌] Odd sound",
-            "• A bell, tapping, distant singing, scraping, or sudden silence."
+            "• Bell, tapping, singing, scraping, sudden silence.",
+            "[☼] Light / shadow",
+            "• Guttering candle, wrong-hour window, long shadow, dust motes.",
+            "[♧] Signs of life",
+            "• Footprints, bones, nest, insects, feathers, lingering warmth.",
+            "[✎] Written mark",
+            "• Scratch, chalk, knot, erased warning, hidden note.",
+            "[❄] Air / touch",
+            "• Cold draft, sticky rail, damp wall, grit, hidden heat."
           ],
           "column": 1,
           "row": 17,
           "colSpan": 11,
-          "rowSpan": 16,
+          "rowSpan": 24,
           "width": 11,
-          "zIndex": 1,
+          "zIndex": 57,
           "fixedGrid": true,
           "hidden": false,
           "concept": "conditions",
-          "subtitlePosition": "below"
+          "subtitlePosition": "beside",
+          "columnItems": [
+            [
+              "[✦] Found object",
+              "• Cracked sign, lost button, cold coin, nameless letter.",
+              "[♨] Food / drink",
+              "• Burnt, sweet, spiced, sour, unexpectedly fresh.",
+              "[⚑] Clothing",
+              "• Missing glove, bright sash, muddy hem, unusual uniform.",
+              "[⌖] Local detail",
+              "• Custom, warning, rumour, payment, superstition.",
+              "[◌] Odd sound",
+              "• Bell, tapping, singing, scraping, sudden silence.",
+              "[☼] Light / shadow",
+              "• Guttering candle, wrong-hour window, long shadow, dust motes.",
+              "[♧] Signs of life",
+              "• Footprints, bones, nest, insects, feathers, lingering warmth.",
+              "[✎] Written mark",
+              "• Scratch, chalk, knot, erased warning, hidden note.",
+              "[❄] Air / touch",
+              "• Cold draft, sticky rail, damp wall, grit, hidden heat."
+            ]
+          ]
         },
         {
           "title": "DM calculation reminders",
@@ -1169,10 +1505,10 @@
           ],
           "column": 12,
           "row": 26,
-          "colSpan": 14,
+          "colSpan": 19,
           "rowSpan": 15,
-          "width": 14,
-          "zIndex": 6,
+          "width": 19,
+          "zIndex": 51,
           "fixedGrid": true,
           "hidden": false,
           "concept": "combat",
@@ -1216,7 +1552,7 @@
           "colSpan": 15,
           "rowSpan": 10,
           "width": 15,
-          "zIndex": 11,
+          "zIndex": 56,
           "fixedGrid": true,
           "hidden": false,
           "subtitlePosition": "beside",
@@ -1224,10 +1560,10 @@
         },
         {
           "title": "Random location",
-          "subtitle": "Roll or choose a place to discover.",
+          "subtitle": "",
           "type": "table",
           "color": "#238ac0",
-          "columns": 1,
+          "columns": 2,
           "items": [
             "d12 | Location",
             "1 | Abandoned watchtower",
@@ -1248,7 +1584,7 @@
           "colSpan": 9,
           "rowSpan": 15,
           "width": 9,
-          "zIndex": 12,
+          "zIndex": 55,
           "fixedGrid": true,
           "hidden": false,
           "subtitlePosition": "beside",
