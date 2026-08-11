@@ -11,7 +11,7 @@
           "icon": "◈",
           "color": "#c9683e",
           "columns": 4,
-          "width": 15,
+          "width": 28,
           "items": [
             "[👁️‍🗨️] Blinded",
             "• Creature can’t see and automatically fails any ability check that requires sight.",
@@ -76,8 +76,8 @@
           ],
           "column": 1,
           "row": 1,
-          "colSpan": 15,
-          "rowSpan": 14,
+          "colSpan": 28,
+          "rowSpan": 29,
           "zIndex": 6,
           "fixedGrid": true,
           "hidden": false,
@@ -155,7 +155,7 @@
         },
         {
           "title": "Actions in combat",
-          "subtitle": "The most common things you can do on your turn.",
+          "subtitle": "General actions and common physical options on your turn.",
           "type": "dot-list",
           "icon": "⚔",
           "color": "#3e7c7a",
@@ -194,12 +194,12 @@
             "[➶] Throw",
             "• Throw an object as an improvised attack, or use it with Utilize when the object requires an action."
           ],
-          "column": 16,
+          "column": 29,
           "row": 1,
-          "colSpan": 5,
-          "rowSpan": 9,
-          "width": 5,
-          "zIndex": 2,
+          "colSpan": 12,
+          "rowSpan": 32,
+          "width": 12,
+          "zIndex": 7,
           "fixedGrid": true,
           "hidden": false,
           "subtitlePosition": "below",
@@ -216,7 +216,7 @@
               "• Attacks against you have disadvantage; you have advantage on Dexterity saves.",
               "[🤝] Help",
               "• Help an ability check or attack roll, or administer first aid.",
-              "[�] Hide",
+              "[🫥] Hide",
               "• Make a Dexterity (Stealth) check to become hidden.",
               "[🗣️] Influence",
               "• Use Deception, Intimidation, Performance, Persuasion, or Animal Handling to alter an attitude.",
@@ -250,7 +250,7 @@
           "icon": "◆",
           "color": "#6b5a8e",
           "columns": 1,
-          "column": 9,
+          "column": 10,
           "items": [
             "Very Easy · 5",
             "Easy · 10",
@@ -259,66 +259,11 @@
             "Very Hard · 25",
             "Nearly Impossible · 30"
           ],
-          "row": 19,
-          "colSpan": 3,
-          "rowSpan": 2,
-          "width": 3,
-          "zIndex": 1,
-          "fixedGrid": true,
-          "hidden": false,
-          "subtitlePosition": "below",
-          "concept": "reference"
-        },
-        {
-          "title": "Jump distance",
-          "subtitle": "Movement calculations at a glance.",
-          "type": "dot-list",
-          "color": "#3e7c7a",
-          "columns": 1,
-          "items": [
-            "[↗] Long jump",
-            "• If you move at least 10 ft. immediately before the jump, cover a number of feet up to your Strength score.",
-            "• If you do not move 10 ft. first, jump only half that distance.",
-            "[↟] High jump",
-            "• If you move at least 10 ft. immediately before the jump, leap a number of feet equal to 3 + your Strength modifier.",
-            "• If you do not move 10 ft. first, jump only half that distance.",
-            "[◌] Reach",
-            "• Add your reach to the jump height if you can make an arm-assisted jump.",
-            "[⚖] Difficult terrain",
-            "• Every foot of movement costs 1 extra foot when moving through difficult terrain."
-          ],
-          "column": 1,
-          "row": 15,
-          "colSpan": 5,
-          "rowSpan": 5,
-          "width": 5,
-          "zIndex": 4,
-          "fixedGrid": true,
-          "hidden": false,
-          "subtitlePosition": "below",
-          "concept": "combat"
-        },
-        {
-          "title": "Stealth / sneak",
-          "subtitle": "Use when a creature hides or moves unseen.",
-          "type": "dot-list",
-          "color": "#6b5a8e",
-          "columns": 2,
-          "items": [
-            "[◉] Hide",
-            "• Make a Dexterity (Stealth) check while heavily obscured, behind cover, or out of line of sight.",
-            "• The check total becomes the DC for a creature to find you with Wisdom (Perception).",
-            "[!] Stay hidden",
-            "• You are revealed after making a sound louder than a whisper, attacking, or casting a spell with a verbal component.",
-            "[↗] Invisible",
-            "• You have advantage on attacks and enemies have disadvantage attacking you, unless they can somehow see you."
-          ],
-          "column": 17,
-          "row": 18,
-          "colSpan": 4,
-          "rowSpan": 2,
-          "width": 4,
-          "zIndex": 7,
+          "row": 30,
+          "colSpan": 8,
+          "rowSpan": 11,
+          "width": 8,
+          "zIndex": 5,
           "fixedGrid": true,
           "hidden": false,
           "subtitlePosition": "below",
@@ -328,7 +273,7 @@
           "title": "DC checks",
           "subtitle": "Choosing a difficulty for an ability check.",
           "type": "table",
-          "color": "#c9683e",
+          "color": "#b3299e",
           "columns": 1,
           "items": [
             "Task difficulty | DC",
@@ -341,15 +286,15 @@
             "Check DC | 10 + circumstance modifier",
             "Contested check | Higher total succeeds"
           ],
-          "column": 16,
-          "row": 10,
-          "colSpan": 5,
-          "rowSpan": 8,
-          "width": 5,
-          "zIndex": 3,
+          "column": 18,
+          "row": 30,
+          "colSpan": 11,
+          "rowSpan": 11,
+          "width": 11,
+          "zIndex": 1,
           "fixedGrid": true,
           "hidden": false,
-          "concept": "conditions"
+          "concept": "character"
         },
         {
           "title": "Damage calculation",
@@ -365,42 +310,35 @@
             "[★] Critical hit",
             "• Roll all of the attack’s damage dice twice, then add modifiers once."
           ],
-          "column": 11,
-          "row": 15,
-          "colSpan": 10,
-          "rowSpan": 5,
-          "width": 10,
-          "zIndex": 5,
+          "column": 1,
+          "row": 30,
+          "colSpan": 9,
+          "rowSpan": 11,
+          "width": 9,
+          "zIndex": 3,
           "fixedGrid": true,
           "hidden": false,
           "subtitlePosition": "below",
           "concept": "conditions"
         },
         {
-          "title": "Random check table",
-          "subtitle": "Pick the most relevant check for the moment.",
-          "type": "table",
-          "color": "#b3299e",
+          "title": "Concentration",
+          "subtitle": "Keeping a spell active when you take damage.",
+          "icon": "✧",
+          "color": "#3e7c7a",
           "columns": 1,
           "items": [
-            "Situation | Check",
-            "Notice a hidden detail | WIS (Perception)",
-            "Recall lore or facts | INT (History / Arcana)",
-            "Find a hidden object | WIS (Investigation)",
-            "Move without a sound | DEX (Stealth)",
-            "Read a creature’s intent | WIS (Insight)",
-            "React to danger | DEX (Acrobatics)",
-            "Force or break something | STR (Athletics)"
+            "Whenever you take damage while concentrating on a spell, make a Constitution saving throw to maintain concentration. DC equals 10 or half the damage taken, whichever number is higher."
           ],
-          "column": 5,
-          "row": 15,
-          "colSpan": 6,
-          "rowSpan": 5,
-          "width": 6,
+          "column": 29,
+          "row": 33,
+          "colSpan": 12,
+          "rowSpan": 8,
+          "width": 12,
           "zIndex": 8,
           "fixedGrid": true,
           "hidden": false,
-          "concept": "character",
+          "concept": "combat",
           "subtitlePosition": "below"
         }
       ]
@@ -422,11 +360,11 @@
             "Difficult terrain costs 1 extra foot per foot moved."
           ],
           "column": 1,
-          "row": 8,
-          "colSpan": 6,
-          "rowSpan": 5,
-          "width": 6,
-          "zIndex": 4,
+          "row": 1,
+          "colSpan": 10,
+          "rowSpan": 9,
+          "width": 10,
+          "zIndex": 6,
           "fixedGrid": true,
           "hidden": false,
           "concept": "combat",
@@ -462,12 +400,12 @@
             "305000 | 19 |",
             "355000 | 20 |"
           ],
-          "column": 16,
-          "row": 1,
-          "colSpan": 5,
-          "rowSpan": 14,
-          "width": 5,
-          "zIndex": 6,
+          "column": 31,
+          "row": 15,
+          "colSpan": 10,
+          "rowSpan": 26,
+          "width": 10,
+          "zIndex": 4,
           "fixedGrid": true,
           "hidden": false,
           "concept": "character",
@@ -674,12 +612,12 @@
             " | Common | 2 SP",
             " | Fine (bottle) | 10 GP"
           ],
-          "column": 12,
-          "row": 1,
-          "colSpan": 4,
-          "rowSpan": 16,
-          "width": 4,
-          "zIndex": 3,
+          "column": 22,
+          "row": 15,
+          "colSpan": 9,
+          "rowSpan": 26,
+          "width": 9,
+          "zIndex": 8,
           "fixedGrid": true,
           "hidden": false,
           "concept": "exploration"
@@ -693,11 +631,11 @@
           "items": [
             "A creature can hold its breath for 1 + Constitution modifier minutes (minimum 30 seconds). If it runs out of breath, it can survive for a number of rounds equal to its Constitution modifier before dropping to 0 hit points."
           ],
-          "column": 7,
-          "row": 11,
-          "colSpan": 5,
-          "rowSpan": 4,
-          "width": 5,
+          "column": 1,
+          "row": 10,
+          "colSpan": 10,
+          "rowSpan": 8,
+          "width": 10,
           "zIndex": 7,
           "fixedGrid": true,
           "hidden": false,
@@ -705,94 +643,85 @@
           "concept": "reference"
         },
         {
-          "title": "Random location",
-          "subtitle": "Roll or choose a place to discover.",
+          "title": "Random check table",
+          "subtitle": "Pick the most relevant check for the moment.",
           "type": "table",
-          "color": "#238ac0",
+          "color": "#b3299e",
           "columns": 1,
           "items": [
-            "d12 | Location",
-            "1 | Abandoned watchtower",
-            "2 | Flooded cellar",
-            "3 | Shrine beneath a bridge",
-            "4 | Overgrown road marker",
-            "5 | Burned-out campsite",
-            "6 | Hidden cave entrance",
-            "7 | Ruined village square",
-            "8 | Merchant caravan",
-            "9 | Old battlefield",
-            "10 | Strange standing stones",
-            "11 | Sealed mine entrance",
-            "12 | Isolated hunter’s cabin"
+            "Situation | Check",
+            "Notice a hidden detail | WIS (Perception)",
+            "Recall lore or facts | INT (History / Arcana)",
+            "Find a hidden object | WIS (Investigation)",
+            "Move without a sound | DEX (Stealth)",
+            "Read a creature’s intent | WIS (Insight)",
+            "React to danger | DEX (Acrobatics)",
+            "Force or break something | STR (Athletics)"
           ],
-          "column": 7,
+          "column": 32,
           "row": 1,
-          "colSpan": 5,
-          "rowSpan": 10,
-          "width": 5,
+          "colSpan": 9,
+          "rowSpan": 14,
+          "width": 9,
           "zIndex": 5,
           "fixedGrid": true,
           "hidden": false,
-          "subtitlePosition": "below",
-          "concept": "exploration"
+          "concept": "character",
+          "subtitlePosition": "below"
         },
         {
-          "title": "Remember the villain",
-          "subtitle": "Questions that make an antagonist feel real.",
+          "title": "Stealth / sneak",
+          "subtitle": "Use when a creature hides or moves unseen.",
           "type": "dot-list",
-          "color": "#c9683e",
+          "color": "#6b5a8e",
           "columns": 1,
           "items": [
-            "[◆] Motivation",
-            "• What does this villain want to achieve?",
-            "• Why do they refuse the easier path?",
-            "[↻] Change",
-            "• How have they changed over time?",
-            "• What experience made them choose this path?",
-            "[◇] Breaking point",
-            "• What would make them abandon their goal?",
-            "• What do they fear losing more than they want to win?"
+            "[◉] Hide",
+            "• Make a Dexterity (Stealth) check while heavily obscured, behind cover, or out of line of sight.",
+            "• The check total becomes the DC for a creature to find you with Wisdom (Perception).",
+            "[!] Stay hidden",
+            "• You are revealed after making a sound louder than a whisper, attacking, or casting a spell with a verbal component.",
+            "[↗] Invisible",
+            "• You have advantage on attacks and enemies have disadvantage attacking you, unless they can somehow see you."
           ],
-          "column": 1,
+          "column": 22,
           "row": 1,
-          "colSpan": 6,
-          "rowSpan": 7,
-          "width": 6,
-          "zIndex": 1,
+          "colSpan": 10,
+          "rowSpan": 14,
+          "width": 10,
+          "zIndex": 10,
           "fixedGrid": true,
           "hidden": false,
           "subtitlePosition": "below",
-          "concept": "conditions"
+          "concept": "reference"
         },
         {
-          "title": "New area reminder",
-          "subtitle": "Make the area feel like a character.",
+          "title": "Jump distance",
+          "subtitle": "Movement calculations at a glance.",
           "type": "dot-list",
           "color": "#3e7c7a",
-          "columns": 2,
+          "columns": 1,
           "items": [
-            "[⌖] First impression",
-            "• Is the location pleasant or unpleasant?",
-            "• What do the characters notice immediately?",
-            "[☀] Weather and air",
-            "• Heat, sun, clouds, rain, wind, or fresh air.",
-            "[⌁] Ground and buildings",
-            "• What is underfoot? What are the buildings made from?",
-            "[✦] Legends",
-            "• What story do locals tell about this place?",
-            "[♧] Natural signs of life",
-            "• Tracks, insects, birds, plants, smoke, or distant sounds.",
-            "[◈] A living area",
-            "• What does this place want? How does it react to visitors?"
+            "[↗] Long jump",
+            "• If you move at least 10 ft. immediately before the jump, cover a number of feet up to your Strength score.",
+            "• If you do not move 10 ft. first, jump only half that distance.",
+            "[↟] High jump",
+            "• If you move at least 10 ft. immediately before the jump, leap a number of feet equal to 3 + your Strength modifier.",
+            "• If you do not move 10 ft. first, jump only half that distance.",
+            "[◌] Reach",
+            "• Add your reach to the jump height if you can make an arm-assisted jump.",
+            "[⚖] Difficult terrain",
+            "• Every foot of movement costs 1 extra foot when moving through difficult terrain."
           ],
-          "column": 1,
-          "row": 13,
-          "colSpan": 6,
-          "rowSpan": 7,
-          "width": 6,
-          "zIndex": 2,
+          "column": 11,
+          "row": 1,
+          "colSpan": 11,
+          "rowSpan": 17,
+          "width": 11,
+          "zIndex": 9,
           "fixedGrid": true,
           "hidden": false,
+          "subtitlePosition": "below",
           "concept": "combat"
         }
       ]
@@ -812,41 +741,23 @@
             "4d10 — Hit by falling rubble in a collapsing cavern.",
             "10d10 — Crushed by compacting walls, hit by a crashing flying ship."
           ],
-          "column": 1,
-          "row": 1,
-          "colSpan": 3,
-          "rowSpan": 2,
-          "width": 3,
-          "zIndex": 1,
+          "column": 16,
+          "row": 17,
+          "colSpan": 11,
+          "rowSpan": 11,
+          "width": 11,
+          "zIndex": 3,
           "fixedGrid": true,
           "hidden": false,
-          "concept": "conditions"
-        },
-        {
-          "title": "Concentration",
-          "subtitle": "Keeping a spell active when you take damage.",
-          "icon": "✧",
-          "color": "#3e7c7a",
-          "columns": 1,
-          "items": [
-            "Whenever you take damage while concentrating on a spell, make a Constitution saving throw to maintain concentration. DC equals 10 or half the damage taken, whichever number is higher."
-          ],
-          "column": 5,
-          "row": 1,
-          "colSpan": 3,
-          "rowSpan": 2,
-          "width": 3,
-          "zIndex": 2,
-          "fixedGrid": true,
-          "hidden": false,
-          "concept": "combat"
+          "concept": "conditions",
+          "subtitlePosition": "below"
         },
         {
           "title": "Player hooks",
           "subtitle": "One card per player, with two cards across.",
           "type": "player-hooks",
           "color": "#b3299e",
-          "columns": 2,
+          "columns": 1,
           "items": [
             "Player | Good 1 | Good 2 | Bad",
             "Player 1 | | |",
@@ -855,12 +766,12 @@
             "Player 4 | | |",
             "Player 5 | | |"
           ],
-          "column": 9,
+          "column": 27,
           "row": 1,
-          "colSpan": 3,
-          "rowSpan": 2,
-          "width": 3,
-          "zIndex": 3,
+          "colSpan": 14,
+          "rowSpan": 27,
+          "width": 14,
+          "zIndex": 8,
           "fixedGrid": true,
           "hidden": false,
           "concept": "character"
@@ -884,42 +795,59 @@
             "9 | Ilyra | Spy, DEX +4",
             "10 | Joren | Hunter, WIS +2"
           ],
-          "column": 13,
+          "column": 18,
           "row": 1,
-          "colSpan": 3,
-          "rowSpan": 2,
-          "width": 3,
-          "zIndex": 4,
+          "colSpan": 9,
+          "rowSpan": 16,
+          "width": 9,
+          "zIndex": 9,
           "fixedGrid": true,
           "hidden": false,
-          "concept": "conditions"
+          "concept": "conditions",
+          "subtitlePosition": "below"
         },
         {
-          "title": "Player perceptions",
+          "title": "NEW AREA",
           "subtitle": "Ask what each character notices first.",
           "type": "dot-list",
           "color": "#6b5a8e",
-          "columns": 2,
+          "columns": 1,
           "items": [
-            "[👁] What is visible?",
-            "• Light, movement, distance, cover, exits, and faces.",
-            "[👂] What is audible?",
-            "• Voices, footsteps, wind, machinery, or something out of place.",
-            "[👃] What is sensed?",
-            "• Smoke, blood, food, damp, perfume, or a strange smell.",
-            "[✦] What feels wrong?",
-            "• A detail that does not fit the scene or a danger the character expects."
+            "[👁️] SIGHT / LIGHT: ",
+            "• Dim, flickering, blinding, pitch-black, hazy, towering, cramped, cavernous, pristine, ruined, overgrown, dust-choked.",
+            "[🔊] SOUND / SILENCE: ",
+            "• Dripping, whistling, grinding, echoing, deafening silence, heavy stillness, faint scratching, distant weeping.",
+            "[👃] SMELL / AIR: ",
+            "• Rotting, stagnant, copper/blood, sulfur, mildew, ozone, pine, frost, stifling, humid, bone-dry, acrid.",
+            "[✨] VIBE / FEELING: ",
+            "• Watchful, predatory, melancholic, feverish, wrong, sorrowful, sacred, awe-inspiring, ancient, hostile, volatile.",
+            "[⚠️] THE TWIST: ",
+            "• Fresh tracks in deep dust, sudden temperature drop, scratched-out carvings, unnatural silence, smell of bread in a crypt."
           ],
-          "column": 17,
+          "column": 1,
           "row": 1,
-          "colSpan": 3,
-          "rowSpan": 2,
-          "width": 3,
+          "colSpan": 14,
+          "rowSpan": 14,
+          "width": 14,
           "zIndex": 5,
           "fixedGrid": true,
           "hidden": false,
           "concept": "reference",
-          "subtitlePosition": "below"
+          "subtitlePosition": "beside",
+          "columnItems": [
+            [
+              "[👁️] SIGHT / LIGHT: ",
+              "• Dim, flickering, blinding, pitch-black, hazy, towering, cramped, cavernous, pristine, ruined, overgrown, dust-choked.",
+              "[🔊] SOUND / SILENCE: ",
+              "• Dripping, whistling, grinding, echoing, deafening silence, heavy stillness, faint scratching, distant weeping.",
+              "[👃] SMELL / AIR: ",
+              "• Rotting, stagnant, copper/blood, sulfur, mildew, ozone, pine, frost, stifling, humid, bone-dry, acrid.",
+              "[✨] VIBE / FEELING: ",
+              "• Watchful, predatory, melancholic, feverish, wrong, sorrowful, sacred, awe-inspiring, ancient, hostile, volatile.",
+              "[⚠️] THE TWIST: ",
+              "• Fresh tracks in deep dust, sudden temperature drop, scratched-out carvings, unnatural silence, smell of bread in a crypt."
+            ]
+          ]
         },
         {
           "title": "Spell slots available",
@@ -928,26 +856,99 @@
           "color": "#238ac0",
           "columns": 1,
           "items": [
-            "Spell level | Slots available",
-            "1st | ○ ○ ○ ○",
-            "2nd | ○ ○ ○",
-            "3rd | ○ ○ ○",
-            "4th | ○ ○ ○",
-            "5th | ○ ○",
-            "6th | ○",
-            "7th | ○",
-            "8th | ○",
-            "9th | ○"
+            "Spell level  |  Slots available",
+            "1st   | 4",
+            "2nd   | 3",
+            "3rd   | 3",
+            "4th   | 3",
+            "5th   | 2",
+            "6th   | 1",
+            "7th   | 1",
+            "8th   | 1",
+            "9th   | 1"
           ],
           "column": 1,
-          "row": 3,
-          "colSpan": 4,
-          "rowSpan": 11,
-          "width": 4,
-          "zIndex": 6,
+          "row": 26,
+          "colSpan": 8,
+          "rowSpan": 13,
+          "width": 8,
+          "zIndex": 4,
           "fixedGrid": true,
           "hidden": false,
-          "concept": "exploration"
+          "concept": "exploration",
+          "tableRows": [
+            {
+              "cells": [
+                "Spell level ",
+                " Slots available"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "1st  ",
+                "4"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "2nd  ",
+                "3"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "3rd  ",
+                "3"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "4th  ",
+                "3"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "5th  ",
+                "2"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "6th  ",
+                "1"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "7th  ",
+                "1"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "8th  ",
+                "1"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "9th  ",
+                "1"
+              ],
+              "separator": false
+            }
+          ],
+          "subtitlePosition": "below"
         },
         {
           "title": "Common bought things",
@@ -969,22 +970,23 @@
             "Tent | 2 GP",
             "Caltrops | 1 GP"
           ],
-          "column": 5,
-          "row": 3,
-          "colSpan": 3,
-          "rowSpan": 2,
-          "width": 3,
-          "zIndex": 7,
+          "column": 24,
+          "row": 25,
+          "colSpan": 9,
+          "rowSpan": 16,
+          "width": 9,
+          "zIndex": 1,
           "fixedGrid": true,
           "hidden": false,
-          "concept": "exploration"
+          "concept": "exploration",
+          "subtitlePosition": "below"
         },
         {
           "title": "Random things",
           "subtitle": "Small details to add life to a scene.",
           "type": "dot-list",
           "color": "#c9683e",
-          "columns": 2,
+          "columns": 1,
           "items": [
             "[✦] Found object",
             "• A cracked sign, a lost button, a cold coin, or a letter with no name.",
@@ -997,12 +999,12 @@
             "[◌] Odd sound",
             "• A bell, tapping, distant singing, scraping, or sudden silence."
           ],
-          "column": 9,
-          "row": 3,
-          "colSpan": 3,
-          "rowSpan": 2,
-          "width": 3,
-          "zIndex": 8,
+          "column": 33,
+          "row": 25,
+          "colSpan": 8,
+          "rowSpan": 16,
+          "width": 8,
+          "zIndex": 6,
           "fixedGrid": true,
           "hidden": false,
           "concept": "conditions",
@@ -1013,7 +1015,7 @@
           "subtitle": "Short formulas for common moments.",
           "type": "dot-list",
           "color": "#3e7c7a",
-          "columns": 2,
+          "columns": 1,
           "items": [
             "[⌖] Passive score",
             "• 10 + all modifiers that normally apply to the check.",
@@ -1024,15 +1026,80 @@
             "[☠] Death save",
             "• d20: 10+ is a success, 9 or lower is a failure; a natural 20 restores 1 HP."
           ],
-          "column": 13,
-          "row": 3,
-          "colSpan": 3,
-          "rowSpan": 2,
-          "width": 3,
-          "zIndex": 9,
+          "column": 1,
+          "row": 15,
+          "colSpan": 14,
+          "rowSpan": 11,
+          "width": 14,
+          "zIndex": 10,
           "fixedGrid": true,
           "hidden": false,
           "concept": "combat"
+        }
+      ]
+    },
+    {
+      "title": "Page 4",
+      "sections": [
+        {
+          "title": "Remember the villain",
+          "subtitle": "Questions that make an antagonist feel real.",
+          "type": "dot-list",
+          "color": "#c9683e",
+          "columns": 1,
+          "items": [
+            "[◆] Motivation",
+            "• What does this villain want to achieve?",
+            "• Why do they refuse the easier path?",
+            "[↻] Change",
+            "• How have they changed over time?",
+            "• What experience made them choose this path?",
+            "[◇] Breaking point",
+            "• What would make them abandon their goal?",
+            "• What do they fear losing more than they want to win?"
+          ],
+          "column": 1,
+          "row": 18,
+          "colSpan": 11,
+          "rowSpan": 11,
+          "width": 11,
+          "zIndex": 1,
+          "fixedGrid": true,
+          "hidden": false,
+          "subtitlePosition": "below",
+          "concept": "conditions"
+        },
+        {
+          "title": "Random location",
+          "subtitle": "Roll or choose a place to discover.",
+          "type": "table",
+          "color": "#238ac0",
+          "columns": 1,
+          "items": [
+            "d12 | Location",
+            "1 | Abandoned watchtower",
+            "2 | Flooded cellar",
+            "3 | Shrine beneath a bridge",
+            "4 | Overgrown road marker",
+            "5 | Burned-out campsite",
+            "6 | Hidden cave entrance",
+            "7 | Ruined village square",
+            "8 | Merchant caravan",
+            "9 | Old battlefield",
+            "10 | Strange standing stones",
+            "11 | Sealed mine entrance",
+            "12 | Isolated hunter’s cabin"
+          ],
+          "column": 13,
+          "row": 24,
+          "colSpan": 10,
+          "rowSpan": 17,
+          "width": 10,
+          "zIndex": 3,
+          "fixedGrid": true,
+          "hidden": false,
+          "subtitlePosition": "below",
+          "concept": "exploration"
         }
       ]
     }
@@ -1040,7 +1107,7 @@
   "fonts": {
     "title": 16,
     "subtitle": 8,
-    "body": 11
+    "body": 10
   },
   "colors": {
     "combat": "#3e7c7a",
@@ -1049,5 +1116,6 @@
     "exploration": "#238ac0",
     "character": "#b3299e",
     "custom": null
-  }
+  },
+  "gridSize": 40
 }
