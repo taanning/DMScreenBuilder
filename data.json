@@ -1,0 +1,1053 @@
+{
+  "title": "Taanning DM Screen Builder",
+  "pages": [
+    {
+      "title": "Core & combat",
+      "sections": [
+        {
+          "title": "Conditions",
+          "subtitle": "Common effects that change what a creature can do.",
+          "type": "dot-list",
+          "icon": "◈",
+          "color": "#c9683e",
+          "columns": 4,
+          "width": 15,
+          "items": [
+            "[👁️‍🗨️] Blinded",
+            "• Creature can’t see and automatically fails any ability check that requires sight.",
+            "• Disadv. on attacks, adv. on attacks vs creature.",
+            "[🩸] Bloodied",
+            "• When a creature has ½ its HP remaining.",
+            "[♡] Charmed",
+            "• Can’t attack or target the charmer with damaging abilities or magical effects.",
+            "• Charmer has adv. on social checks vs creature.",
+            "[ϟ] Frightened",
+            "• Disadv. on ability checks and attacks while source of fear is in line of sight.",
+            "• Can’t willingly move closer to source of fear.",
+            "[☠] Poisoned",
+            "• Disadv. on all attacks and ability checks.",
+            "[☠] Exhaustion",
+            "• Cumulative, +1 level every time it is received.",
+            "• Creature dies if Exhaustion Level is 6.",
+            "• −2 to D20 Tests and −5 ft. to Speed per level.",
+            "[✦] Incapacitated",
+            "• Creature can’t take any action, bonus action or reaction, and cannot speak.",
+            "• Creature’s Concentration is broken.",
+            "• Surprised: Disadv. on initiative rolls.",
+            "• Finishing a Long Rest reduces Exhaustion by 1 level.",
+            "[↗] Grappled",
+            "• Creature’s Speed is 0 and cannot increase.",
+            "• Disadv. on attacks vs targets except grappler.",
+            "• Grappler can drag or carry target, but every foot costs 1 additional foot unless the target is Tiny or 2 sizes smaller.",
+            "• Condition ends if grappler is Incapacitated, distance exceeds grapple range, or target escapes.",
+            "[⛓] Restrained",
+            "• Creature’s Speed is 0 and cannot increase.",
+            "• Disadv. on attacks, adv. on attacks vs creature.",
+            "• Disadv. on DEX saving throws.",
+            "[✹] Stunned",
+            "• Creature is Incapacitated.",
+            "• Always fails STR and DEX saving throws.",
+            "• Adv. on attacks vs creature.",
+            "[👻] Invisible",
+            "• Surprise: Adv. on initiative rolls.",
+            "• Creature is unaffected by effects that require its target to be seen unless the effect’s creator can somehow see it.",
+            "• Adv. on attacks, disadv. on attacks vs creature. Does not apply to other creatures that can somehow see it.",
+            "[⛓] Paralyzed",
+            "• Creature is Incapacitated.",
+            "• Creature’s Speed is 0 and cannot increase.",
+            "• Always fails STR and DEX saving throws.",
+            "• Adv. on attacks vs creature. Attacks are always critical hits if attacker is within 5 ft. of creature.",
+            "[🪨] Petrified",
+            "• Creature is transformed, along with any non-magical objects worn or carried, into a solid inanimate substance (stone). Weight increases by ×10, and the creature ceases aging.",
+            "[◌] Deafened",
+            "• Creature can’t hear, automatically fails any ability check that requires hearing.",
+            "[⬇] Prone",
+            "• Creature can only crawl unless it spends ½ its Speed to stand up, ending the condition.",
+            "• Can’t stand up if Speed is 0.",
+            "• Disadv. on attacks, adv. on attacks vs creature if attacker is within 5 ft.; otherwise disadv. on attacks vs creature instead.",
+            "• May choose to drop prone on player turn without using actions or movement, unless Speed is 0.",
+            "[😵] Unconscious",
+            "• Creature is Incapacitated, drops Prone, and drops whatever it is holding. The creature remains Prone when this condition ends.",
+            "• Creature’s Speed is 0 and cannot increase.",
+            "• Adv. on attacks vs creature. Attacks are always critical hits if attacker is within 5 ft. of creature.",
+            "• Always fails STR and DEX saving throws.",
+            "• Creature is unaware of its surroundings.",
+            "• If creature has 0 HP and is stabilised, regains 1 HP after 1d4 hours."
+          ],
+          "column": 1,
+          "row": 1,
+          "colSpan": 15,
+          "rowSpan": 14,
+          "zIndex": 6,
+          "fixedGrid": true,
+          "hidden": false,
+          "columnItems": [
+            [
+              "[👁️‍🗨️] Blinded",
+              "• Creature can’t see and automatically fails any ability check that requires sight.",
+              "• Disadv. on attacks, adv. on attacks vs creature.",
+              "[🩸] Bloodied",
+              "• When a creature has ½ its HP remaining.",
+              "[♡] Charmed",
+              "• Can’t attack or target the charmer with damaging abilities or magical effects.",
+              "• Charmer has adv. on social checks vs creature.",
+              "[ϟ] Frightened",
+              "• Disadv. on ability checks and attacks while source of fear is in line of sight.",
+              "• Can’t willingly move closer to source of fear.",
+              "[☠] Poisoned",
+              "• Disadv. on all attacks and ability checks.",
+              "[☠] Exhaustion",
+              "• Cumulative, +1 level every time it is received.",
+              "• Creature dies if Exhaustion Level is 6.",
+              "• −2 to D20 Tests and −5 ft. to Speed per level."
+            ],
+            [
+              "[✦] Incapacitated",
+              "• Creature can’t take any action, bonus action or reaction, and cannot speak.",
+              "• Creature’s Concentration is broken.",
+              "• Surprised: Disadv. on initiative rolls.",
+              "• Finishing a Long Rest reduces Exhaustion by 1 level.",
+              "[↗] Grappled",
+              "• Creature’s Speed is 0 and cannot increase.",
+              "• Disadv. on attacks vs targets except grappler.",
+              "• Grappler can drag or carry target, but every foot costs 1 additional foot unless the target is Tiny or 2 sizes smaller.",
+              "• Condition ends if grappler is Incapacitated, distance exceeds grapple range, or target escapes.",
+              "[⛓] Restrained",
+              "• Creature’s Speed is 0 and cannot increase.",
+              "• Disadv. on attacks, adv. on attacks vs creature.",
+              "• Disadv. on DEX saving throws.",
+              "[✹] Stunned",
+              "• Creature is Incapacitated.",
+              "• Always fails STR and DEX saving throws.",
+              "• Adv. on attacks vs creature."
+            ],
+            [
+              "[👻] Invisible",
+              "• Surprise: Adv. on initiative rolls.",
+              "• Creature is unaffected by effects that require its target to be seen unless the effect’s creator can somehow see it.",
+              "• Adv. on attacks, disadv. on attacks vs creature. Does not apply to other creatures that can somehow see it.",
+              "[⛓] Paralyzed",
+              "• Creature is Incapacitated.",
+              "• Creature’s Speed is 0 and cannot increase.",
+              "• Always fails STR and DEX saving throws.",
+              "• Adv. on attacks vs creature. Attacks are always critical hits if attacker is within 5 ft. of creature.",
+              "[🪨] Petrified",
+              "• Creature is transformed, along with any non-magical objects worn or carried, into a solid inanimate substance (stone). Weight increases by ×10, and the creature ceases aging.",
+              "[◌] Deafened",
+              "• Creature can’t hear, automatically fails any ability check that requires hearing."
+            ],
+            [
+              "[⬇] Prone",
+              "• Creature can only crawl unless it spends ½ its Speed to stand up, ending the condition.",
+              "• Can’t stand up if Speed is 0.",
+              "• Disadv. on attacks, adv. on attacks vs creature if attacker is within 5 ft.; otherwise disadv. on attacks vs creature instead.",
+              "• May choose to drop prone on player turn without using actions or movement, unless Speed is 0.",
+              "[😵] Unconscious",
+              "• Creature is Incapacitated, drops Prone, and drops whatever it is holding. The creature remains Prone when this condition ends.",
+              "• Creature’s Speed is 0 and cannot increase.",
+              "• Adv. on attacks vs creature. Attacks are always critical hits if attacker is within 5 ft. of creature.",
+              "• Always fails STR and DEX saving throws.",
+              "• Creature is unaware of its surroundings.",
+              "• If creature has 0 HP and is stabilised, regains 1 HP after 1d4 hours."
+            ]
+          ],
+          "concept": "conditions"
+        },
+        {
+          "title": "Actions in combat",
+          "subtitle": "The most common things you can do on your turn.",
+          "type": "dot-list",
+          "icon": "⚔",
+          "color": "#3e7c7a",
+          "columns": 2,
+          "items": [
+            "[⚔️] Attack",
+            "• Make one melee or ranged attack, or use an Unarmed Strike.",
+            "[🏃] Dash",
+            "• Gain extra movement for the current turn.",
+            "[🛡️] Disengage",
+            "• Movement doesn't provoke opportunity attacks for the rest of the turn.",
+            "[🌀] Dodge",
+            "• Attacks against you have disadvantage; you have advantage on Dexterity saves.",
+            "[🤝] Help",
+            "• Help an ability check or attack roll, or administer first aid.",
+            "[🫥] Hide",
+            "• Make a Dexterity (Stealth) check to become hidden.",
+            "[🗣️] Influence",
+            "• Use Deception, Intimidation, Performance, Persuasion, or Animal Handling to alter an attitude.",
+            "[✨] Magic",
+            "• Cast a spell, use a magic item, or use a magical feature.",
+            "[⏳] Ready",
+            "• Prepare to take an action in response to a trigger you define.",
+            "[🔍] Search",
+            "• Make an Insight, Medicine, Perception, or Survival check to find or notice something.",
+            "[📚] Study",
+            "• Make an Arcana, History, Investigation, Nature, or Religion check to recall information.",
+            "[🛠️] Utilize",
+            "• Use a nonmagical object when it requires an action.",
+            "[🦘] Jump",
+            "• Use your movement for a Long Jump or High Jump; see Jump distance.",
+            "[🪢] Grapple",
+            "• Attack option: on a hit, the target makes a Strength or Dexterity save or becomes Grappled.",
+            "[↔️] Push / Shove",
+            "• Attack option: on a hit, the target makes a Strength or Dexterity save or is pushed 5 ft. or knocked Prone.",
+            "[➶] Throw",
+            "• Throw an object as an improvised attack, or use it with Utilize when the object requires an action."
+          ],
+          "column": 16,
+          "row": 1,
+          "colSpan": 5,
+          "rowSpan": 9,
+          "width": 5,
+          "zIndex": 2,
+          "fixedGrid": true,
+          "hidden": false,
+          "subtitlePosition": "below",
+          "concept": "combat",
+          "columnItems": [
+            [
+              "[⚔️] Attack",
+              "• Make one melee or ranged attack, or use an Unarmed Strike.",
+              "[🏃] Dash",
+              "• Gain extra movement for the current turn.",
+              "[🛡️] Disengage",
+              "• Movement doesn't provoke opportunity attacks for the rest of the turn.",
+              "[🌀] Dodge",
+              "• Attacks against you have disadvantage; you have advantage on Dexterity saves.",
+              "[🤝] Help",
+              "• Help an ability check or attack roll, or administer first aid.",
+              "[�] Hide",
+              "• Make a Dexterity (Stealth) check to become hidden.",
+              "[🗣️] Influence",
+              "• Use Deception, Intimidation, Performance, Persuasion, or Animal Handling to alter an attitude.",
+              "[✨] Magic",
+              "• Cast a spell, use a magic item, or use a magical feature."
+            ],
+            [
+              "[⏳] Ready",
+              "• Prepare to take an action in response to a trigger you define.",
+              "[🔍] Search",
+              "• Make an Insight, Medicine, Perception, or Survival check to find or notice something.",
+              "[📚] Study",
+              "• Make an Arcana, History, Investigation, Nature, or Religion check to recall information.",
+              "[🛠️] Utilize",
+              "• Use a nonmagical object when it requires an action.",
+              "[🦘] Jump",
+              "• Use your movement for a Long Jump or High Jump; see Jump distance.",
+              "[🪢] Grapple",
+              "• Attack option: on a hit, the target makes a Strength or Dexterity save or becomes Grappled.",
+              "[↔️] Push / Shove",
+              "• Attack option: on a hit, the target makes a Strength or Dexterity save or is pushed 5 ft. or knocked Prone.",
+              "[➶] Throw",
+              "• Throw an object as an improvised attack, or use it with Utilize when the object requires an action."
+            ]
+          ]
+        },
+        {
+          "title": "Typical difficulty classes",
+          "subtitle": "Suggested DCs for common tasks.",
+          "type": "dot-list",
+          "icon": "◆",
+          "color": "#6b5a8e",
+          "columns": 1,
+          "column": 9,
+          "items": [
+            "Very Easy · 5",
+            "Easy · 10",
+            "Medium · 15",
+            "Hard · 20",
+            "Very Hard · 25",
+            "Nearly Impossible · 30"
+          ],
+          "row": 19,
+          "colSpan": 3,
+          "rowSpan": 2,
+          "width": 3,
+          "zIndex": 1,
+          "fixedGrid": true,
+          "hidden": false,
+          "subtitlePosition": "below",
+          "concept": "reference"
+        },
+        {
+          "title": "Jump distance",
+          "subtitle": "Movement calculations at a glance.",
+          "type": "dot-list",
+          "color": "#3e7c7a",
+          "columns": 1,
+          "items": [
+            "[↗] Long jump",
+            "• If you move at least 10 ft. immediately before the jump, cover a number of feet up to your Strength score.",
+            "• If you do not move 10 ft. first, jump only half that distance.",
+            "[↟] High jump",
+            "• If you move at least 10 ft. immediately before the jump, leap a number of feet equal to 3 + your Strength modifier.",
+            "• If you do not move 10 ft. first, jump only half that distance.",
+            "[◌] Reach",
+            "• Add your reach to the jump height if you can make an arm-assisted jump.",
+            "[⚖] Difficult terrain",
+            "• Every foot of movement costs 1 extra foot when moving through difficult terrain."
+          ],
+          "column": 1,
+          "row": 15,
+          "colSpan": 5,
+          "rowSpan": 5,
+          "width": 5,
+          "zIndex": 4,
+          "fixedGrid": true,
+          "hidden": false,
+          "subtitlePosition": "below",
+          "concept": "combat"
+        },
+        {
+          "title": "Stealth / sneak",
+          "subtitle": "Use when a creature hides or moves unseen.",
+          "type": "dot-list",
+          "color": "#6b5a8e",
+          "columns": 2,
+          "items": [
+            "[◉] Hide",
+            "• Make a Dexterity (Stealth) check while heavily obscured, behind cover, or out of line of sight.",
+            "• The check total becomes the DC for a creature to find you with Wisdom (Perception).",
+            "[!] Stay hidden",
+            "• You are revealed after making a sound louder than a whisper, attacking, or casting a spell with a verbal component.",
+            "[↗] Invisible",
+            "• You have advantage on attacks and enemies have disadvantage attacking you, unless they can somehow see you."
+          ],
+          "column": 17,
+          "row": 18,
+          "colSpan": 4,
+          "rowSpan": 2,
+          "width": 4,
+          "zIndex": 7,
+          "fixedGrid": true,
+          "hidden": false,
+          "subtitlePosition": "below",
+          "concept": "reference"
+        },
+        {
+          "title": "DC checks",
+          "subtitle": "Choosing a difficulty for an ability check.",
+          "type": "table",
+          "color": "#c9683e",
+          "columns": 1,
+          "items": [
+            "Task difficulty | DC",
+            "Very Easy | 5",
+            "Easy | 10",
+            "Medium | 15",
+            "Hard | 20",
+            "Very Hard | 25",
+            "Nearly Impossible | 30",
+            "Check DC | 10 + circumstance modifier",
+            "Contested check | Higher total succeeds"
+          ],
+          "column": 16,
+          "row": 10,
+          "colSpan": 5,
+          "rowSpan": 8,
+          "width": 5,
+          "zIndex": 3,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "conditions"
+        },
+        {
+          "title": "Damage calculation",
+          "subtitle": "Fast reminder for attack and damage rolls.",
+          "type": "dot-list",
+          "color": "#c9683e",
+          "columns": 1,
+          "items": [
+            "[⚔] Attack roll",
+            "• d20 + ability modifier + proficiency bonus (if proficient) + other bonuses.",
+            "[✹] Damage roll",
+            "• Weapon or spell damage die + relevant ability modifier + other bonuses.",
+            "[★] Critical hit",
+            "• Roll all of the attack’s damage dice twice, then add modifiers once."
+          ],
+          "column": 11,
+          "row": 15,
+          "colSpan": 10,
+          "rowSpan": 5,
+          "width": 10,
+          "zIndex": 5,
+          "fixedGrid": true,
+          "hidden": false,
+          "subtitlePosition": "below",
+          "concept": "conditions"
+        },
+        {
+          "title": "Random check table",
+          "subtitle": "Pick the most relevant check for the moment.",
+          "type": "table",
+          "color": "#b3299e",
+          "columns": 1,
+          "items": [
+            "Situation | Check",
+            "Notice a hidden detail | WIS (Perception)",
+            "Recall lore or facts | INT (History / Arcana)",
+            "Find a hidden object | WIS (Investigation)",
+            "Move without a sound | DEX (Stealth)",
+            "Read a creature’s intent | WIS (Insight)",
+            "React to danger | DEX (Acrobatics)",
+            "Force or break something | STR (Athletics)"
+          ],
+          "column": 5,
+          "row": 15,
+          "colSpan": 6,
+          "rowSpan": 5,
+          "width": 6,
+          "zIndex": 8,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "character",
+          "subtitlePosition": "below"
+        }
+      ]
+    },
+    {
+      "title": "Adventuring & characters",
+      "sections": [
+        {
+          "title": "Movement rules",
+          "subtitle": "Special movement and difficult terrain.",
+          "type": "dot-list",
+          "icon": "↗",
+          "color": "#3e7c7a",
+          "columns": 1,
+          "items": [
+            "Crawling without a crawl speed costs 1 extra foot per foot.",
+            "Climbing without a climb speed costs 1 extra foot per foot.",
+            "Swimming without a swim speed costs 1 extra foot per foot.",
+            "Difficult terrain costs 1 extra foot per foot moved."
+          ],
+          "column": 1,
+          "row": 8,
+          "colSpan": 6,
+          "rowSpan": 5,
+          "width": 6,
+          "zIndex": 4,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "combat",
+          "subtitlePosition": "below"
+        },
+        {
+          "title": "Advancement Table",
+          "subtitle": "Experience points, level, and proficiency bonus.",
+          "type": "table",
+          "icon": "",
+          "color": "#b3299e",
+          "columns": 1,
+          "items": [
+            "EXP | Level | Proficiency Bonus (PB)",
+            "0 | 1 |",
+            "300 | 2 | 2",
+            "900 | 3 |",
+            "2700 | 4 |",
+            "6500 | 5 |",
+            "14000 | 6 | 3",
+            "23000 | 7 |",
+            "34000 | 8 |",
+            "48000 | 9 |",
+            "64000 | 10 | 4",
+            "85000 | 11 |",
+            "100000 | 12 |",
+            "120000 | 13 |",
+            "140000 | 14 | 5",
+            "165000 | 15 |",
+            "195000 | 16 |",
+            "225000 | 17 |",
+            "265000 | 18 | 6",
+            "305000 | 19 |",
+            "355000 | 20 |"
+          ],
+          "column": 16,
+          "row": 1,
+          "colSpan": 5,
+          "rowSpan": 14,
+          "width": 5,
+          "zIndex": 6,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "character",
+          "tableRows": [
+            {
+              "cells": [
+                "EXP ",
+                " Level ",
+                " Proficiency Bonus (PB)"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "0 ",
+                " 1 ",
+                ""
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "300 ",
+                " 2 ",
+                " 2"
+              ],
+              "separator": "2"
+            },
+            {
+              "cells": [
+                "900 ",
+                " 3 ",
+                ""
+              ],
+              "separator": ""
+            },
+            {
+              "cells": [
+                "2700 ",
+                " 4 ",
+                ""
+              ],
+              "separator": ""
+            },
+            {
+              "cells": [
+                "6500 ",
+                " 5 ",
+                ""
+              ],
+              "separator": ""
+            },
+            {
+              "cells": [
+                "14000 ",
+                " 6 ",
+                " 3"
+              ],
+              "separator": "3"
+            },
+            {
+              "cells": [
+                "23000 ",
+                " 7 ",
+                ""
+              ],
+              "separator": ""
+            },
+            {
+              "cells": [
+                "34000 ",
+                " 8 ",
+                ""
+              ],
+              "separator": ""
+            },
+            {
+              "cells": [
+                "48000 ",
+                " 9 ",
+                ""
+              ],
+              "separator": ""
+            },
+            {
+              "cells": [
+                "64000 ",
+                " 10 ",
+                " 4"
+              ],
+              "separator": "4"
+            },
+            {
+              "cells": [
+                "85000 ",
+                " 11 ",
+                ""
+              ],
+              "separator": ""
+            },
+            {
+              "cells": [
+                "100000 ",
+                " 12 ",
+                ""
+              ],
+              "separator": ""
+            },
+            {
+              "cells": [
+                "120000 ",
+                " 13 ",
+                ""
+              ],
+              "separator": ""
+            },
+            {
+              "cells": [
+                "140000 ",
+                " 14 ",
+                " 5"
+              ],
+              "separator": "5"
+            },
+            {
+              "cells": [
+                "165000 ",
+                " 15 ",
+                ""
+              ],
+              "separator": ""
+            },
+            {
+              "cells": [
+                "195000 ",
+                " 16 ",
+                ""
+              ],
+              "separator": ""
+            },
+            {
+              "cells": [
+                "225000 ",
+                " 17 ",
+                ""
+              ],
+              "separator": ""
+            },
+            {
+              "cells": [
+                "265000 ",
+                " 18 ",
+                " 6"
+              ],
+              "separator": "6"
+            },
+            {
+              "cells": [
+                "305000 ",
+                " 19 ",
+                ""
+              ],
+              "separator": ""
+            },
+            {
+              "cells": [
+                "355000 ",
+                " 20 ",
+                ""
+              ],
+              "separator": ""
+            }
+          ]
+        },
+        {
+          "title": "Food, Drink and Lodging",
+          "subtitle": "",
+          "type": "table",
+          "icon": "",
+          "color": "#238ac0",
+          "columns": 1,
+          "items": [
+            "Ale | Gallon | 2 SP",
+            " | Mug | 4 CP",
+            "Banquet (per person) | | 10 GP",
+            "Bread (loaf) | | 2 CP",
+            "Cheese (wedge) | | 1 SP",
+            "Inn Stay per Day | |",
+            " | Squalid | 7 CP",
+            " | Poor | 1 SP",
+            " | Modest | 5 SP",
+            " | Comfortable | 8 SP",
+            " | Wealthy | 2 GP",
+            " | Aristocratic | 4 GP",
+            "Meal | |",
+            " | Squalid | 1 CP",
+            " | Poor | 2 CP",
+            " | Modest | 1 SP",
+            " | Comfortable | 2 SP",
+            " | Wealthy | 3 SP",
+            " | Aristocratic | 6 SP",
+            "Meat, chunk | | 3 SP",
+            "Wine | |",
+            " | Common | 2 SP",
+            " | Fine (bottle) | 10 GP"
+          ],
+          "column": 12,
+          "row": 1,
+          "colSpan": 4,
+          "rowSpan": 16,
+          "width": 4,
+          "zIndex": 3,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "exploration"
+        },
+        {
+          "title": "Suffocation",
+          "subtitle": "Breath-holding and running out of air.",
+          "icon": "◌",
+          "color": "#6b5a8e",
+          "columns": 1,
+          "items": [
+            "A creature can hold its breath for 1 + Constitution modifier minutes (minimum 30 seconds). If it runs out of breath, it can survive for a number of rounds equal to its Constitution modifier before dropping to 0 hit points."
+          ],
+          "column": 7,
+          "row": 11,
+          "colSpan": 5,
+          "rowSpan": 4,
+          "width": 5,
+          "zIndex": 7,
+          "fixedGrid": true,
+          "hidden": false,
+          "subtitlePosition": "below",
+          "concept": "reference"
+        },
+        {
+          "title": "Random location",
+          "subtitle": "Roll or choose a place to discover.",
+          "type": "table",
+          "color": "#238ac0",
+          "columns": 1,
+          "items": [
+            "d12 | Location",
+            "1 | Abandoned watchtower",
+            "2 | Flooded cellar",
+            "3 | Shrine beneath a bridge",
+            "4 | Overgrown road marker",
+            "5 | Burned-out campsite",
+            "6 | Hidden cave entrance",
+            "7 | Ruined village square",
+            "8 | Merchant caravan",
+            "9 | Old battlefield",
+            "10 | Strange standing stones",
+            "11 | Sealed mine entrance",
+            "12 | Isolated hunter’s cabin"
+          ],
+          "column": 7,
+          "row": 1,
+          "colSpan": 5,
+          "rowSpan": 10,
+          "width": 5,
+          "zIndex": 5,
+          "fixedGrid": true,
+          "hidden": false,
+          "subtitlePosition": "below",
+          "concept": "exploration"
+        },
+        {
+          "title": "Remember the villain",
+          "subtitle": "Questions that make an antagonist feel real.",
+          "type": "dot-list",
+          "color": "#c9683e",
+          "columns": 1,
+          "items": [
+            "[◆] Motivation",
+            "• What does this villain want to achieve?",
+            "• Why do they refuse the easier path?",
+            "[↻] Change",
+            "• How have they changed over time?",
+            "• What experience made them choose this path?",
+            "[◇] Breaking point",
+            "• What would make them abandon their goal?",
+            "• What do they fear losing more than they want to win?"
+          ],
+          "column": 1,
+          "row": 1,
+          "colSpan": 6,
+          "rowSpan": 7,
+          "width": 6,
+          "zIndex": 1,
+          "fixedGrid": true,
+          "hidden": false,
+          "subtitlePosition": "below",
+          "concept": "conditions"
+        },
+        {
+          "title": "New area reminder",
+          "subtitle": "Make the area feel like a character.",
+          "type": "dot-list",
+          "color": "#3e7c7a",
+          "columns": 2,
+          "items": [
+            "[⌖] First impression",
+            "• Is the location pleasant or unpleasant?",
+            "• What do the characters notice immediately?",
+            "[☀] Weather and air",
+            "• Heat, sun, clouds, rain, wind, or fresh air.",
+            "[⌁] Ground and buildings",
+            "• What is underfoot? What are the buildings made from?",
+            "[✦] Legends",
+            "• What story do locals tell about this place?",
+            "[♧] Natural signs of life",
+            "• Tracks, insects, birds, plants, smoke, or distant sounds.",
+            "[◈] A living area",
+            "• What does this place want? How does it react to visitors?"
+          ],
+          "column": 1,
+          "row": 13,
+          "colSpan": 6,
+          "rowSpan": 7,
+          "width": 6,
+          "zIndex": 2,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "combat"
+        }
+      ]
+    },
+    {
+      "title": "Encounter, world & gear",
+      "sections": [
+        {
+          "title": "Improvised damage",
+          "subtitle": "Quick damage guidance for hazards and accidents.",
+          "icon": "✹",
+          "color": "#c9683e",
+          "columns": 1,
+          "items": [
+            "1d10 — Burned by hot coals, hit by falling bookcase, pricked by a needle.",
+            "2d10 — Struck by lightning, caught in a collapsing tunnel.",
+            "4d10 — Hit by falling rubble in a collapsing cavern.",
+            "10d10 — Crushed by compacting walls, hit by a crashing flying ship."
+          ],
+          "column": 1,
+          "row": 1,
+          "colSpan": 3,
+          "rowSpan": 2,
+          "width": 3,
+          "zIndex": 1,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "conditions"
+        },
+        {
+          "title": "Concentration",
+          "subtitle": "Keeping a spell active when you take damage.",
+          "icon": "✧",
+          "color": "#3e7c7a",
+          "columns": 1,
+          "items": [
+            "Whenever you take damage while concentrating on a spell, make a Constitution saving throw to maintain concentration. DC equals 10 or half the damage taken, whichever number is higher."
+          ],
+          "column": 5,
+          "row": 1,
+          "colSpan": 3,
+          "rowSpan": 2,
+          "width": 3,
+          "zIndex": 2,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "combat"
+        },
+        {
+          "title": "Player hooks",
+          "subtitle": "One card per player, with two cards across.",
+          "type": "player-hooks",
+          "color": "#b3299e",
+          "columns": 2,
+          "items": [
+            "Player | Good 1 | Good 2 | Bad",
+            "Player 1 | | |",
+            "Player 2 | | |",
+            "Player 3 | | |",
+            "Player 4 | | |",
+            "Player 5 | | |"
+          ],
+          "column": 9,
+          "row": 1,
+          "colSpan": 3,
+          "rowSpan": 2,
+          "width": 3,
+          "zIndex": 3,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "character"
+        },
+        {
+          "title": "NPC list",
+          "subtitle": "Names and quick stats to roll at the table.",
+          "type": "table",
+          "color": "#c9683e",
+          "columns": 1,
+          "items": [
+            "d20 | Name | Role / stats",
+            "1 | Alden | Guard, STR +2",
+            "2 | Brynn | Merchant, WIS +1",
+            "3 | Cora | Scout, DEX +3",
+            "4 | Dain | Priest, WIS +3",
+            "5 | Elira | Scholar, INT +4",
+            "6 | Fen | Sailor, CON +2",
+            "7 | Greta | Innkeeper, CHA +2",
+            "8 | Hakon | Smith, STR +3",
+            "9 | Ilyra | Spy, DEX +4",
+            "10 | Joren | Hunter, WIS +2"
+          ],
+          "column": 13,
+          "row": 1,
+          "colSpan": 3,
+          "rowSpan": 2,
+          "width": 3,
+          "zIndex": 4,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "conditions"
+        },
+        {
+          "title": "Player perceptions",
+          "subtitle": "Ask what each character notices first.",
+          "type": "dot-list",
+          "color": "#6b5a8e",
+          "columns": 2,
+          "items": [
+            "[👁] What is visible?",
+            "• Light, movement, distance, cover, exits, and faces.",
+            "[👂] What is audible?",
+            "• Voices, footsteps, wind, machinery, or something out of place.",
+            "[👃] What is sensed?",
+            "• Smoke, blood, food, damp, perfume, or a strange smell.",
+            "[✦] What feels wrong?",
+            "• A detail that does not fit the scene or a danger the character expects."
+          ],
+          "column": 17,
+          "row": 1,
+          "colSpan": 3,
+          "rowSpan": 2,
+          "width": 3,
+          "zIndex": 5,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "reference",
+          "subtitlePosition": "below"
+        },
+        {
+          "title": "Spell slots available",
+          "subtitle": "Reference for which spell levels have slots available.",
+          "type": "table",
+          "color": "#238ac0",
+          "columns": 1,
+          "items": [
+            "Spell level | Slots available",
+            "1st | ○ ○ ○ ○",
+            "2nd | ○ ○ ○",
+            "3rd | ○ ○ ○",
+            "4th | ○ ○ ○",
+            "5th | ○ ○",
+            "6th | ○",
+            "7th | ○",
+            "8th | ○",
+            "9th | ○"
+          ],
+          "column": 1,
+          "row": 3,
+          "colSpan": 4,
+          "rowSpan": 11,
+          "width": 4,
+          "zIndex": 6,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "exploration"
+        },
+        {
+          "title": "Common bought things",
+          "subtitle": "Prices worth having ready.",
+          "type": "table",
+          "color": "#238ac0",
+          "columns": 1,
+          "items": [
+            "Item | Cost",
+            "Torch | 1 CP",
+            "Rope, hempen (50 ft.) | 1 GP",
+            "Rations (1 day) | 5 SP",
+            "Waterskin | 2 SP",
+            "Backpack | 2 GP",
+            "Bedroll | 1 GP",
+            "Crowbar | 2 GP",
+            "Grappling hook | 2 GP",
+            "Lantern | 5 SP",
+            "Tent | 2 GP",
+            "Caltrops | 1 GP"
+          ],
+          "column": 5,
+          "row": 3,
+          "colSpan": 3,
+          "rowSpan": 2,
+          "width": 3,
+          "zIndex": 7,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "exploration"
+        },
+        {
+          "title": "Random things",
+          "subtitle": "Small details to add life to a scene.",
+          "type": "dot-list",
+          "color": "#c9683e",
+          "columns": 2,
+          "items": [
+            "[✦] Found object",
+            "• A cracked sign, a lost button, a cold coin, or a letter with no name.",
+            "[♨] Food and drink",
+            "• Something burnt, overly sweet, spiced, sour, or unexpectedly fresh.",
+            "[⚑] Clothing",
+            "• A missing glove, bright sash, muddy hem, or unusual uniform.",
+            "[⌖] Local detail",
+            "• A custom, warning, rumour, payment, or small superstition.",
+            "[◌] Odd sound",
+            "• A bell, tapping, distant singing, scraping, or sudden silence."
+          ],
+          "column": 9,
+          "row": 3,
+          "colSpan": 3,
+          "rowSpan": 2,
+          "width": 3,
+          "zIndex": 8,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "conditions",
+          "subtitlePosition": "below"
+        },
+        {
+          "title": "DM calculation reminders",
+          "subtitle": "Short formulas for common moments.",
+          "type": "dot-list",
+          "color": "#3e7c7a",
+          "columns": 2,
+          "items": [
+            "[⌖] Passive score",
+            "• 10 + all modifiers that normally apply to the check.",
+            "[⚖] Advantage / disadvantage",
+            "• Roll two d20s; use the higher roll with advantage or lower roll with disadvantage.",
+            "[✹] Falling damage",
+            "• 1d6 bludgeoning damage per 10 feet fallen, maximum 20d6.",
+            "[☠] Death save",
+            "• d20: 10+ is a success, 9 or lower is a failure; a natural 20 restores 1 HP."
+          ],
+          "column": 13,
+          "row": 3,
+          "colSpan": 3,
+          "rowSpan": 2,
+          "width": 3,
+          "zIndex": 9,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "combat"
+        }
+      ]
+    }
+  ],
+  "fonts": {
+    "title": 16,
+    "subtitle": 8,
+    "body": 11
+  },
+  "colors": {
+    "combat": "#3e7c7a",
+    "conditions": "#c9683e",
+    "reference": "#6b5a8e",
+    "exploration": "#238ac0",
+    "character": "#b3299e",
+    "custom": null
+  }
+}
