@@ -44,10 +44,8 @@
             "• Creature’s Speed is 0 and cannot increase.",
             "• Disadv. on attacks, adv. on attacks vs creature.",
             "• Disadv. on DEX saving throws.",
-            "[✹] Stunned",
-            "• Creature is Incapacitated.",
-            "• Always fails STR and DEX saving throws.",
-            "• Adv. on attacks vs creature.",
+            "[◌] Deafened",
+            "• Creature can’t hear, automatically fails any ability check that requires hearing.",
             "[👻] Invisible",
             "• Surprise: Adv. on initiative rolls.",
             "• Creature is unaffected by effects that require its target to be seen unless the effect’s creator can somehow see it.",
@@ -59,8 +57,10 @@
             "• Adv. on attacks vs creature. Attacks are always critical hits if attacker is within 5 ft. of creature.",
             "[🪨] Petrified",
             "• Creature is transformed, along with any non-magical objects worn or carried, into a solid inanimate substance (stone). Weight increases by ×10, and the creature ceases aging.",
-            "[◌] Deafened",
-            "• Creature can’t hear, automatically fails any ability check that requires hearing.",
+            "[✹] Stunned",
+            "• Creature is Incapacitated.",
+            "• Always fails STR and DEX saving throws.",
+            "• Adv. on attacks vs creature.",
             "[⬇] Prone",
             "• Creature can only crawl unless it spends ½ its Speed to stand up, ending the condition.",
             "• Can’t stand up if Speed is 0.",
@@ -77,8 +77,8 @@
           "column": 1,
           "row": 1,
           "colSpan": 28,
-          "rowSpan": 27,
-          "zIndex": 14,
+          "rowSpan": 30,
+          "zIndex": 69,
           "fixedGrid": true,
           "hidden": false,
           "columnItems": [
@@ -116,10 +116,8 @@
               "• Creature’s Speed is 0 and cannot increase.",
               "• Disadv. on attacks, adv. on attacks vs creature.",
               "• Disadv. on DEX saving throws.",
-              "[✹] Stunned",
-              "• Creature is Incapacitated.",
-              "• Always fails STR and DEX saving throws.",
-              "• Adv. on attacks vs creature."
+              "[◌] Deafened",
+              "• Creature can’t hear, automatically fails any ability check that requires hearing."
             ],
             [
               "[👻] Invisible",
@@ -133,8 +131,10 @@
               "• Adv. on attacks vs creature. Attacks are always critical hits if attacker is within 5 ft. of creature.",
               "[🪨] Petrified",
               "• Creature is transformed, along with any non-magical objects worn or carried, into a solid inanimate substance (stone). Weight increases by ×10, and the creature ceases aging.",
-              "[◌] Deafened",
-              "• Creature can’t hear, automatically fails any ability check that requires hearing."
+              "[✹] Stunned",
+              "• Creature is Incapacitated.",
+              "• Always fails STR and DEX saving throws.",
+              "• Adv. on attacks vs creature."
             ],
             [
               "[⬇] Prone",
@@ -175,34 +175,32 @@
             "• Make a Dexterity (Stealth) check to become hidden.",
             "[🗣️] Influence",
             "• Use Deception, Intimidation, Performance, Persuasion, or Animal Handling to alter an attitude.",
-            "[✨] Magic",
-            "• Cast a spell, use a magic item, or use a magical feature.",
+            "[➶] Throw",
+            "• Throw an object as an improv attack.",
             "[⏳] Ready",
             "• Prepare to take an action in response to a trigger you define.",
             "[🔍] Search",
-            "• Make an Insight, Medicine, Perception, or Survival check to find or notice something.",
+            "• Make an Insight, Medicine, Perception, or Survival check to find/notice.",
             "[📚] Study",
             "• Make an Arcana, History, Investigation, Nature, or Religion check to recall information.",
             "[🛠️] Utilize",
             "• Use a nonmagical object when it requires an action.",
-            "[🦘] Jump",
-            "• Use your movement for a Long Jump or High Jump; see Jump distance.",
             "[🪢] Grapple",
-            "• Attack option: on a hit, the target makes a Strength or Dexterity save or becomes Grappled.",
+            "• Attack option: on a hit, the target makes a Strength or Dexterity save.",
             "[↔️] Push / Shove",
-            "• Attack option: on a hit, the target makes a Strength or Dexterity save or is pushed 5 ft. or knocked Prone.",
-            "[➶] Throw",
-            "• Throw an object as an improvised attack, or use it with Utilize when the object requires an action."
+            "• Attack option: on a hit, the target makes a Strength or Dexterity save or is pushed 5 ft. / Prone.",
+            "[✨] Magic",
+            "• Cast a spell, use a magic item, or use a magical feature."
           ],
           "column": 29,
           "row": 1,
           "colSpan": 12,
           "rowSpan": 31,
           "width": 12,
-          "zIndex": 7,
+          "zIndex": 70,
           "fixedGrid": true,
           "hidden": false,
-          "subtitlePosition": "below",
+          "subtitlePosition": "beside",
           "concept": "combat",
           "columnItems": [
             [
@@ -220,139 +218,188 @@
               "• Make a Dexterity (Stealth) check to become hidden.",
               "[🗣️] Influence",
               "• Use Deception, Intimidation, Performance, Persuasion, or Animal Handling to alter an attitude.",
-              "[✨] Magic",
-              "• Cast a spell, use a magic item, or use a magical feature."
+              "[➶] Throw",
+              "• Throw an object as an improv attack."
             ],
             [
               "[⏳] Ready",
               "• Prepare to take an action in response to a trigger you define.",
               "[🔍] Search",
-              "• Make an Insight, Medicine, Perception, or Survival check to find or notice something.",
+              "• Make an Insight, Medicine, Perception, or Survival check to find/notice.",
               "[📚] Study",
               "• Make an Arcana, History, Investigation, Nature, or Religion check to recall information.",
               "[🛠️] Utilize",
               "• Use a nonmagical object when it requires an action.",
-              "[🦘] Jump",
-              "• Use your movement for a Long Jump or High Jump; see Jump distance.",
               "[🪢] Grapple",
-              "• Attack option: on a hit, the target makes a Strength or Dexterity save or becomes Grappled.",
+              "• Attack option: on a hit, the target makes a Strength or Dexterity save.",
               "[↔️] Push / Shove",
-              "• Attack option: on a hit, the target makes a Strength or Dexterity save or is pushed 5 ft. or knocked Prone.",
-              "[➶] Throw",
-              "• Throw an object as an improvised attack, or use it with Utilize when the object requires an action."
+              "• Attack option: on a hit, the target makes a Strength or Dexterity save or is pushed 5 ft. / Prone.",
+              "[✨] Magic",
+              "• Cast a spell, use a magic item, or use a magical feature."
             ]
           ]
         },
         {
-          "title": "Typical difficulty classes",
-          "subtitle": "Suggested DCs for common tasks.",
-          "type": "dot-list",
-          "icon": "◆",
-          "color": "#6b5a8e",
-          "columns": 1,
-          "column": 10,
-          "items": [
-            "Very Easy · 5",
-            "Easy · 10",
-            "Medium · 15",
-            "Hard · 20",
-            "Very Hard · 25",
-            "Nearly Impossible · 30"
-          ],
-          "row": 28,
-          "colSpan": 8,
-          "rowSpan": 13,
-          "width": 8,
-          "zIndex": 15,
-          "fixedGrid": true,
-          "hidden": false,
-          "subtitlePosition": "below",
-          "concept": "reference"
-        },
-        {
           "title": "DC checks",
-          "subtitle": "Choosing a difficulty for an ability check.",
+          "subtitle": "Ability check difficulty",
           "type": "table",
           "color": "#b3299e",
           "columns": 2,
           "items": [
-            "Task difficulty | DC",
-            "Very Easy | 5",
-            "Easy | 10",
-            "Medium | 15",
-            "Hard | 20",
-            "Very Hard | 25",
-            "Nearly Impossible | 30",
-            "Check DC | 10 + circumstance modifier",
-            "Contested check | Higher total succeeds"
-          ],
-          "column": 18,
-          "row": 28,
-          "colSpan": 11,
-          "rowSpan": 13,
-          "width": 11,
-          "zIndex": 13,
-          "fixedGrid": true,
-          "hidden": false,
-          "concept": "character"
-        },
-        {
-          "title": "Damage calculation",
-          "subtitle": "Fast reminder for attack and damage rolls.",
-          "type": "dot-list",
-          "color": "#c9683e",
-          "columns": 1,
-          "items": [
-            "[⚔] Attack roll",
-            "• d20 + ability modifier + proficiency bonus (if proficient) + other bonuses.",
-            "[✹] Damage roll",
-            "• Weapon or spell damage die + relevant ability modifier + other bonuses.",
-            "[★] Critical hit",
-            "• Roll all of the attack’s damage dice twice, then add modifiers once."
-          ],
-          "column": 1,
-          "row": 28,
-          "colSpan": 9,
-          "rowSpan": 13,
-          "width": 9,
-          "zIndex": 10,
-          "fixedGrid": true,
-          "hidden": false,
-          "subtitlePosition": "below",
-          "concept": "conditions"
-        },
-        {
-          "title": "Concentration",
-          "subtitle": "Keeping a spell active when you take damage.",
-          "icon": "✧",
-          "color": "#3e7c7a",
-          "columns": 1,
-          "items": [
-            "Must take Magic action to maintain concentration for spells with 1 min + cast times (including rituals).",
-            "If broken, spell fails but slot is not lost.",
-            "1: Casting another spell that requires Concentration.",
-            "2: Taking damage / CON save (DC equals 10 or 1⁄2 the damage taken, whichever is higher) (Max DC 30).",
-            "3: Being Incapacitated or killed.",
-            "4: Environmental Phenomena: DC 10 CON save. E.g. Loud Sound"
+            "Task difficulty  |  DC",
+            "Very Easy  |  5",
+            "Easy  |  10",
+            "Medium  |  15",
+            "Hard  |  20",
+            "Very Hard  |  25",
+            "Nearly Impossible  |  30",
+            " | ",
+            " | "
           ],
           "column": 29,
           "row": 32,
           "colSpan": 12,
           "rowSpan": 9,
           "width": 12,
-          "zIndex": 12,
+          "zIndex": 74,
+          "fixedGrid": true,
+          "hidden": false,
+          "concept": "character",
+          "tableRows": [
+            {
+              "cells": [
+                "Task difficulty ",
+                " DC"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "Very Easy ",
+                " 5"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "Easy ",
+                " 10"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "Medium ",
+                " 15"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "Hard ",
+                " 20"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "Very Hard ",
+                " 25"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "Nearly Impossible ",
+                " 30"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "",
+                ""
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "",
+                ""
+              ],
+              "separator": false
+            }
+          ]
+        },
+        {
+          "title": "Damage calculation",
+          "subtitle": "",
+          "type": "dot-list",
+          "color": "#c9683e",
+          "columns": 1,
+          "items": [
+            "[⚔] 1. Attack roll",
+            "• d20 + ability modifier + proficiency bonus (if proficient) + other bonuses.",
+            "[✹] 2. Damage roll",
+            "• Weapon or spell damage die + relevant ability modifier + other bonuses.",
+            "[★] 3. Critical hit or fail",
+            "• Roll all of the attack’s damage dice twice, then add modifiers once."
+          ],
+          "column": 1,
+          "row": 31,
+          "colSpan": 9,
+          "rowSpan": 10,
+          "width": 9,
+          "zIndex": 72,
+          "fixedGrid": true,
+          "hidden": false,
+          "subtitlePosition": "beside",
+          "concept": "conditions",
+          "columnItems": [
+            [
+              "[⚔] 1. Attack roll",
+              "• d20 + ability modifier + proficiency bonus (if proficient) + other bonuses.",
+              "[✹] 2. Damage roll",
+              "• Weapon or spell damage die + relevant ability modifier + other bonuses.",
+              "[★] 3. Critical hit or fail",
+              "• Roll all of the attack’s damage dice twice, then add modifiers once."
+            ]
+          ]
+        },
+        {
+          "title": "Concentration",
+          "subtitle": "Keeping a spell active on damage.",
+          "icon": "✧",
+          "color": "#3e7c7a",
+          "columns": 1,
+          "items": [
+            "Spells with 1+ min cast times / rituals: Require a Magic action each turn to maintain",
+            "Use a Magic action each turn.",
+            "Cast another concentration spell.",
+            "Casting another concentration spell, taking damage (CON save vs 10 or half damage, whichever is higher; max DC 30)",
+            "Incapacitated/killed.",
+            "Environmental disruption (DC 10 CON save).",
+            "Spell fails : slot is kept."
+          ],
+          "column": 10,
+          "row": 31,
+          "colSpan": 12,
+          "rowSpan": 10,
+          "width": 12,
+          "zIndex": 73,
           "fixedGrid": true,
           "hidden": false,
           "concept": "combat",
           "subtitlePosition": "beside",
           "columnItems": [
             [
-              "Must take Magic action to maintain concentration for spells with 1 min + cast times (including rituals).",
-              "If broken, spell fails but slot is not lost.",
-              "1: Casting another spell that requires Concentration.",
-              "2: Taking damage / CON save (DC equals 10 or 1⁄2 the damage taken, whichever is higher) (Max DC 30).",
-              "3: Being Incapacitated or killed.",
-              "4: Environmental Phenomena: DC 10 CON save. E.g. Loud Sound"
+              "Spells with 1+ min cast times / rituals: Require a Magic action each turn to maintain",
+              "Use a Magic action each turn.",
+              "Cast another concentration spell.",
+              "Casting another concentration spell, taking damage (CON save vs 10 or half damage, whichever is higher; max DC 30)",
+              "Incapacitated/killed.",
+              "Environmental disruption (DC 10 CON save).",
+              "Spell fails : slot is kept."
             ]
           ]
         }
@@ -363,7 +410,7 @@
       "sections": [
         {
           "title": "Movement rules",
-          "subtitle": "Special movement and difficult terrain.",
+          "subtitle": "on difficult terrain",
           "type": "dot-list",
           "icon": "↗",
           "color": "#3e7c7a",
@@ -376,18 +423,18 @@
           ],
           "column": 1,
           "row": 1,
-          "colSpan": 9,
+          "colSpan": 10,
           "rowSpan": 9,
-          "width": 9,
+          "width": 10,
           "zIndex": 13,
           "fixedGrid": true,
           "hidden": false,
           "concept": "combat",
-          "subtitlePosition": "below"
+          "subtitlePosition": "beside"
         },
         {
-          "title": "Advancement Table",
-          "subtitle": "Experience points, level, and proficiency bonus.",
+          "title": "Advancement",
+          "subtitle": "Experience& proficiency.",
           "type": "table",
           "icon": "",
           "color": "#b3299e",
@@ -415,12 +462,12 @@
             "305000 | 19 |",
             "355000 | 20 |"
           ],
-          "column": 34,
+          "column": 35,
           "row": 15,
-          "colSpan": 7,
+          "colSpan": 6,
           "rowSpan": 26,
-          "width": 7,
-          "zIndex": 21,
+          "width": 6,
+          "zIndex": 61,
           "fixedGrid": true,
           "hidden": false,
           "concept": "character",
@@ -604,36 +651,38 @@
           "color": "#238ac0",
           "columns": 3,
           "items": [
-            "Ale  |  Gallon  |  2 SP",
-            "  |  Mug  |  4 CP",
-            "Banquet (per person)  |   |  10 GP",
-            "Bread (loaf)  |   |  2 CP",
-            "Cheese (wedge)  |   |  1 SP",
-            "Inn Stay per Day  |   | ",
-            "  |  Squalid  |  7 CP",
-            "  |  Poor  |  1 SP",
-            "  |  Modest  |  5 SP",
-            "  |  Comfortable  |  8 SP",
-            "  |  Wealthy  |  2 GP",
-            "  |  Aristocratic  |  4 GP",
-            "Meal  |   | ",
-            "  |  Squalid  |  1 CP",
-            "  |  Poor  |  2 CP",
-            "  |  Modest  |  1 SP",
-            "  |  Comfortable  |  2 SP",
-            "  |  Wealthy  |  3 SP",
-            "  |  Aristocratic  |  6 SP",
-            "Meat, chunk  |   |  3 SP",
-            "Wine  |   | ",
-            "  |  Common  |  2 SP",
-            "  |  Fine (bottle)  |  10 GP"
+            "Menu  |  Item  |  Price",
+            " Ale   |   Gallon   |   2 SP",
+            "  |    Mug   |   4 CP",
+            " Wine   |    |  ",
+            "   | Common   |   2 SP",
+            "  | Fine (bottle)   |   10 GP",
+            "Foods |  | ",
+            "Banquet   | per person |   10 GP",
+            "Bread   | loaf |   2 CP",
+            "Cheese  | wedge |   1 SP",
+            "Meat,  | chunk   |   3 SP",
+            " Meals  |    |  ",
+            "   | Squalid   |   1 CP",
+            "   | Poor   |   2 CP",
+            "   | Modest   |   1 SP",
+            "   | Comfortable   |   2 SP",
+            "   | Wealthy   |   3 SP",
+            "  | Aristocratic   |   6 SP",
+            " Inn Stay  |  per day  |  ",
+            "   | Squalid   |   7 CP",
+            "   |  Poor   |   1 SP",
+            "   | Modest   |   5 SP",
+            "   | Comfortable   |   8 SP",
+            "   | Wealthy   |   2 GP",
+            "  |  Aristocratic   |   4 GP"
           ],
-          "column": 25,
+          "column": 26,
           "row": 15,
           "colSpan": 9,
           "rowSpan": 26,
           "width": 9,
-          "zIndex": 22,
+          "zIndex": 51,
           "fixedGrid": true,
           "hidden": false,
           "concept": "exploration",
@@ -641,187 +690,203 @@
           "tableRows": [
             {
               "cells": [
-                "Ale ",
-                " Gallon ",
-                " 2 SP"
+                "Menu ",
+                " Item ",
+                " Price"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                " Ale  ",
+                "  Gallon  ",
+                "  2 SP"
               ],
               "separator": false
             },
             {
               "cells": [
                 " ",
-                " Mug ",
-                " 4 CP"
+                "   Mug  ",
+                "  4 CP"
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                " Wine  ",
+                "  ",
+                " "
               ],
               "separator": false
             },
             {
               "cells": [
-                "Banquet (per person) ",
+                "  ",
+                "Common  ",
+                "  2 SP"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
                 " ",
-                " 10 GP"
+                "Fine (bottle)  ",
+                "  10 GP"
               ],
               "separator": true
             },
             {
               "cells": [
-                "Bread (loaf) ",
-                " ",
-                " 2 CP"
-              ],
-              "separator": true
-            },
-            {
-              "cells": [
-                "Cheese (wedge) ",
-                " ",
-                " 1 SP"
-              ],
-              "separator": true
-            },
-            {
-              "cells": [
-                "Inn Stay per Day ",
-                " ",
+                "Foods",
+                "",
                 ""
               ],
               "separator": false
             },
             {
               "cells": [
-                " ",
-                " Squalid ",
-                " 7 CP"
+                "Banquet  ",
+                "per person",
+                "  10 GP"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "Bread  ",
+                "loaf",
+                "  2 CP"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "Cheese ",
+                "wedge",
+                "  1 SP"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "Meat, ",
+                "chunk  ",
+                "  3 SP"
               ],
               "separator": true
             },
             {
               "cells": [
-                " ",
-                " Poor ",
-                " 1 SP"
+                " Meals ",
+                "  ",
+                " "
               ],
-              "separator": true
+              "separator": false
             },
             {
               "cells": [
-                " ",
-                " Modest ",
-                " 5 SP"
+                "  ",
+                "Squalid  ",
+                "  1 CP"
               ],
-              "separator": true
+              "separator": false
             },
             {
               "cells": [
-                " ",
-                " Comfortable ",
-                " 8 SP"
+                "  ",
+                "Poor  ",
+                "  2 CP"
               ],
-              "separator": true
+              "separator": false
             },
             {
               "cells": [
-                " ",
-                " Wealthy ",
-                " 2 GP"
+                "  ",
+                "Modest  ",
+                "  1 SP"
               ],
-              "separator": true
+              "separator": false
             },
             {
               "cells": [
-                " ",
-                " Aristocratic ",
-                " 4 GP"
+                "  ",
+                "Comfortable  ",
+                "  2 SP"
               ],
-              "separator": true
+              "separator": false
             },
             {
               "cells": [
-                "Meal ",
-                " ",
-                ""
+                "  ",
+                "Wealthy  ",
+                "  3 SP"
               ],
               "separator": false
             },
             {
               "cells": [
                 " ",
-                " Squalid ",
-                " 1 CP"
+                "Aristocratic  ",
+                "  6 SP"
               ],
               "separator": true
             },
             {
               "cells": [
-                " ",
-                " Poor ",
-                " 2 CP"
+                " Inn Stay ",
+                " per day ",
+                " "
               ],
-              "separator": true
+              "separator": false
             },
             {
               "cells": [
-                " ",
-                " Modest ",
-                " 1 SP"
+                "  ",
+                "Squalid  ",
+                "  7 CP"
               ],
-              "separator": true
+              "separator": false
             },
             {
               "cells": [
-                " ",
-                " Comfortable ",
-                " 2 SP"
+                "  ",
+                " Poor  ",
+                "  1 SP"
               ],
-              "separator": true
+              "separator": false
             },
             {
               "cells": [
-                " ",
-                " Wealthy ",
-                " 3 SP"
+                "  ",
+                "Modest  ",
+                "  5 SP"
               ],
-              "separator": true
+              "separator": false
             },
             {
               "cells": [
-                " ",
-                " Aristocratic ",
-                " 6 SP"
+                "  ",
+                "Comfortable  ",
+                "  8 SP"
               ],
-              "separator": true
+              "separator": false
             },
             {
               "cells": [
-                "Meat, chunk ",
-                " ",
-                " 3 SP"
-              ],
-              "separator": true
-            },
-            {
-              "cells": [
-                "Wine ",
-                " ",
-                ""
+                "  ",
+                "Wealthy  ",
+                "  2 GP"
               ],
               "separator": false
             },
             {
               "cells": [
                 " ",
-                " Common ",
-                " 2 SP"
+                " Aristocratic  ",
+                "  4 GP"
               ],
-              "separator": true
-            },
-            {
-              "cells": [
-                " ",
-                " Fine (bottle) ",
-                " 10 GP"
-              ],
-              "separator": true
+              "separator": false
             }
           ]
         },
@@ -836,10 +901,10 @@
           ],
           "column": 1,
           "row": 10,
-          "colSpan": 9,
+          "colSpan": 10,
           "rowSpan": 7,
-          "width": 9,
-          "zIndex": 12,
+          "width": 10,
+          "zIndex": 50,
           "fixedGrid": true,
           "hidden": false,
           "subtitlePosition": "beside",
@@ -863,10 +928,10 @@
           ],
           "column": 1,
           "row": 28,
-          "colSpan": 9,
+          "colSpan": 10,
           "rowSpan": 13,
-          "width": 9,
-          "zIndex": 14,
+          "width": 10,
+          "zIndex": 56,
           "fixedGrid": true,
           "hidden": false,
           "concept": "character",
@@ -892,7 +957,7 @@
           "colSpan": 9,
           "rowSpan": 14,
           "width": 9,
-          "zIndex": 5,
+          "zIndex": 37,
           "fixedGrid": true,
           "hidden": false,
           "subtitlePosition": "beside",
@@ -923,16 +988,16 @@
             "• If you move at least 10 ft. immediately before the jump, leap a number of feet equal to 3 + your Strength modifier.",
             "• If you do not move 10 ft. first, jump only half that distance.",
             "[◌] Reach",
-            "• Add your reach to the jump height if you can make an arm-assisted jump.",
+            "• Add reach to the jump height if you can make an arm-assisted jump.",
             "[⚖] Difficult terrain",
-            "• Every foot of movement costs 1 extra foot when moving through difficult terrain."
+            "• It costs 1 extra when moving through difficult terrain."
           ],
-          "column": 10,
+          "column": 11,
           "row": 1,
-          "colSpan": 22,
+          "colSpan": 21,
           "rowSpan": 8,
-          "width": 22,
-          "zIndex": 9,
+          "width": 21,
+          "zIndex": 49,
           "fixedGrid": true,
           "hidden": false,
           "subtitlePosition": "beside",
@@ -950,15 +1015,15 @@
             ],
             [
               "[◌] Reach",
-              "• Add your reach to the jump height if you can make an arm-assisted jump.",
+              "• Add reach to the jump height if you can make an arm-assisted jump.",
               "[⚖] Difficult terrain",
-              "• Every foot of movement costs 1 extra foot when moving through difficult terrain."
+              "• It costs 1 extra when moving through difficult terrain."
             ]
           ]
         },
         {
           "title": "Improvised damage",
-          "subtitle": "Quick damage guidance for hazards and accidents.",
+          "subtitle": "",
           "icon": "✹",
           "color": "#c9683e",
           "columns": 1,
@@ -970,14 +1035,14 @@
           ],
           "column": 1,
           "row": 17,
-          "colSpan": 9,
+          "colSpan": 10,
           "rowSpan": 11,
-          "width": 9,
-          "zIndex": 18,
+          "width": 10,
+          "zIndex": 59,
           "fixedGrid": true,
           "hidden": false,
           "concept": "conditions",
-          "subtitlePosition": "below",
+          "subtitlePosition": "beside",
           "columnItems": [
             [
               "1d10 — Burned by hot coals, hit by falling bookcase, pricked by a needle.",
@@ -999,9 +1064,9 @@
           "height": 90,
           "colSpan": 15,
           "rowSpan": 32,
-          "column": 10,
+          "column": 11,
           "row": 9,
-          "zIndex": 6,
+          "zIndex": 60,
           "fixedGrid": true,
           "items": [
             "d12  |  Mob  |  Quick stats  |  Fight / Steal / Outsmart",
@@ -1145,13 +1210,13 @@
       "title": "Encounter, world & gear",
       "sections": [
         {
-          "title": "Player hooks",
-          "subtitle": "One card per player, with two cards across.",
+          "title": "Player Data",
+          "subtitle": "Add relevant data",
           "type": "player-hooks",
           "color": "#b3299e",
           "columns": 1,
           "items": [
-            "Player | Good | Neutral | Bad",
+            " |  |  | ",
             " |  |  | ",
             " |   |   | ",
             " |   |   | ",
@@ -1161,7 +1226,7 @@
           "column": 27,
           "row": 1,
           "colSpan": 14,
-          "rowSpan": 25,
+          "rowSpan": 26,
           "width": 14,
           "zIndex": 43,
           "fixedGrid": true,
@@ -1170,10 +1235,10 @@
           "tableRows": [
             {
               "cells": [
-                "Player",
-                "Good",
-                "Neutral",
-                "Bad"
+                "",
+                "",
+                "",
+                ""
               ],
               "separator": false
             },
@@ -1221,7 +1286,7 @@
         },
         {
           "title": "NPC list",
-          "subtitle": "Names and quick stats to roll at the table.",
+          "subtitle": "quick stats to roll at the table.",
           "type": "table",
           "color": "#c9683e",
           "columns": 4,
@@ -1239,15 +1304,15 @@
             "10  |  Joren  |  Hunter | WIS +2"
           ],
           "column": 31,
-          "row": 26,
+          "row": 27,
           "colSpan": 10,
-          "rowSpan": 15,
+          "rowSpan": 14,
           "width": 10,
-          "zIndex": 52,
+          "zIndex": 84,
           "fixedGrid": true,
           "hidden": false,
           "concept": "conditions",
-          "subtitlePosition": "below",
+          "subtitlePosition": "beside",
           "tableRows": [
             {
               "cells": [
@@ -1371,9 +1436,9 @@
           "column": 1,
           "row": 1,
           "colSpan": 11,
-          "rowSpan": 16,
+          "rowSpan": 18,
           "width": 11,
-          "zIndex": 33,
+          "zIndex": 63,
           "fixedGrid": true,
           "hidden": false,
           "concept": "reference",
@@ -1414,11 +1479,11 @@
             "Caltrops | 1 GP"
           ],
           "column": 21,
-          "row": 11,
+          "row": 13,
           "colSpan": 6,
-          "rowSpan": 15,
+          "rowSpan": 14,
           "width": 6,
-          "zIndex": 53,
+          "zIndex": 76,
           "fixedGrid": true,
           "hidden": false,
           "concept": "exploration",
@@ -1451,11 +1516,11 @@
             "• Cold draft, sticky rail, damp wall, grit, hidden heat."
           ],
           "column": 1,
-          "row": 17,
+          "row": 19,
           "colSpan": 11,
-          "rowSpan": 24,
+          "rowSpan": 22,
           "width": 11,
-          "zIndex": 57,
+          "zIndex": 80,
           "fixedGrid": true,
           "hidden": false,
           "concept": "conditions",
@@ -1504,11 +1569,11 @@
             "• Short rest uses Hit Dice to heal; long rest restores all HP and half your total Hit Dice."
           ],
           "column": 12,
-          "row": 26,
+          "row": 27,
           "colSpan": 19,
-          "rowSpan": 15,
+          "rowSpan": 14,
           "width": 19,
-          "zIndex": 51,
+          "zIndex": 85,
           "fixedGrid": true,
           "hidden": false,
           "concept": "combat",
@@ -1550,9 +1615,9 @@
           "column": 12,
           "row": 1,
           "colSpan": 15,
-          "rowSpan": 10,
+          "rowSpan": 12,
           "width": 15,
-          "zIndex": 56,
+          "zIndex": 81,
           "fixedGrid": true,
           "hidden": false,
           "subtitlePosition": "beside",
@@ -1580,11 +1645,11 @@
             "12 | Isolated hunter’s cabin"
           ],
           "column": 12,
-          "row": 11,
+          "row": 13,
           "colSpan": 9,
-          "rowSpan": 15,
+          "rowSpan": 14,
           "width": 9,
-          "zIndex": 55,
+          "zIndex": 83,
           "fixedGrid": true,
           "hidden": false,
           "subtitlePosition": "beside",
@@ -1595,8 +1660,8 @@
   ],
   "fonts": {
     "title": 16,
-    "subtitle": 8,
-    "body": 10
+    "subtitle": 10,
+    "body": 11
   },
   "colors": {
     "combat": "#3e7c7a",
