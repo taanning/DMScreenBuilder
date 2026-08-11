@@ -77,7 +77,7 @@
           "column": 1,
           "row": 1,
           "colSpan": 28,
-          "rowSpan": 29,
+          "rowSpan": 27,
           "zIndex": 6,
           "fixedGrid": true,
           "hidden": false,
@@ -197,7 +197,7 @@
           "column": 29,
           "row": 1,
           "colSpan": 12,
-          "rowSpan": 32,
+          "rowSpan": 31,
           "width": 12,
           "zIndex": 7,
           "fixedGrid": true,
@@ -259,9 +259,9 @@
             "Very Hard · 25",
             "Nearly Impossible · 30"
           ],
-          "row": 30,
+          "row": 28,
           "colSpan": 8,
-          "rowSpan": 11,
+          "rowSpan": 13,
           "width": 8,
           "zIndex": 5,
           "fixedGrid": true,
@@ -287,9 +287,9 @@
             "Contested check | Higher total succeeds"
           ],
           "column": 18,
-          "row": 30,
+          "row": 28,
           "colSpan": 11,
-          "rowSpan": 11,
+          "rowSpan": 13,
           "width": 11,
           "zIndex": 1,
           "fixedGrid": true,
@@ -311,9 +311,9 @@
             "• Roll all of the attack’s damage dice twice, then add modifiers once."
           ],
           "column": 1,
-          "row": 30,
+          "row": 28,
           "colSpan": 9,
-          "rowSpan": 11,
+          "rowSpan": 13,
           "width": 9,
           "zIndex": 3,
           "fixedGrid": true,
@@ -328,18 +328,33 @@
           "color": "#3e7c7a",
           "columns": 1,
           "items": [
-            "Whenever you take damage while concentrating on a spell, make a Constitution saving throw to maintain concentration. DC equals 10 or half the damage taken, whichever number is higher."
+            "Must take Magic action to maintain concentration for spells with 1 min + cast times (including rituals).",
+            "If broken, spell fails but slot is not lost.",
+            "1: Casting another spell that requires Concentration.",
+            "2: Taking damage / CON save (DC equals 10 or 1⁄2 the damage taken, whichever is higher) (Max DC 30).",
+            "3: Being Incapacitated or killed.",
+            "4: Environmental Phenomena: DC 10 CON save. E.g. Loud Sound"
           ],
           "column": 29,
-          "row": 33,
+          "row": 32,
           "colSpan": 12,
-          "rowSpan": 8,
+          "rowSpan": 9,
           "width": 12,
           "zIndex": 8,
           "fixedGrid": true,
           "hidden": false,
           "concept": "combat",
-          "subtitlePosition": "below"
+          "subtitlePosition": "beside",
+          "columnItems": [
+            [
+              "Must take Magic action to maintain concentration for spells with 1 min + cast times (including rituals).",
+              "If broken, spell fails but slot is not lost.",
+              "1: Casting another spell that requires Concentration.",
+              "2: Taking damage / CON save (DC equals 10 or 1⁄2 the damage taken, whichever is higher) (Max DC 30).",
+              "3: Being Incapacitated or killed.",
+              "4: Environmental Phenomena: DC 10 CON save. E.g. Loud Sound"
+            ]
+          ]
         }
       ]
     },
@@ -361,10 +376,10 @@
           ],
           "column": 1,
           "row": 1,
-          "colSpan": 10,
+          "colSpan": 9,
           "rowSpan": 9,
-          "width": 10,
-          "zIndex": 6,
+          "width": 9,
+          "zIndex": 13,
           "fixedGrid": true,
           "hidden": false,
           "concept": "combat",
@@ -400,12 +415,12 @@
             "305000 | 19 |",
             "355000 | 20 |"
           ],
-          "column": 31,
+          "column": 34,
           "row": 15,
-          "colSpan": 10,
+          "colSpan": 7,
           "rowSpan": 26,
-          "width": 10,
-          "zIndex": 4,
+          "width": 7,
+          "zIndex": 8,
           "fixedGrid": true,
           "hidden": false,
           "concept": "character",
@@ -578,7 +593,8 @@
               ],
               "separator": ""
             }
-          ]
+          ],
+          "subtitlePosition": "below"
         },
         {
           "title": "Food, Drink and Lodging",
@@ -612,15 +628,16 @@
             " | Common | 2 SP",
             " | Fine (bottle) | 10 GP"
           ],
-          "column": 22,
+          "column": 25,
           "row": 15,
           "colSpan": 9,
           "rowSpan": 26,
           "width": 9,
-          "zIndex": 8,
+          "zIndex": 4,
           "fixedGrid": true,
           "hidden": false,
-          "concept": "exploration"
+          "concept": "exploration",
+          "subtitlePosition": "beside"
         },
         {
           "title": "Suffocation",
@@ -633,13 +650,13 @@
           ],
           "column": 1,
           "row": 10,
-          "colSpan": 10,
-          "rowSpan": 8,
-          "width": 10,
-          "zIndex": 7,
+          "colSpan": 9,
+          "rowSpan": 7,
+          "width": 9,
+          "zIndex": 12,
           "fixedGrid": true,
           "hidden": false,
-          "subtitlePosition": "below",
+          "subtitlePosition": "beside",
           "concept": "reference"
         },
         {
@@ -658,12 +675,12 @@
             "React to danger | DEX (Acrobatics)",
             "Force or break something | STR (Athletics)"
           ],
-          "column": 32,
-          "row": 1,
+          "column": 1,
+          "row": 28,
           "colSpan": 9,
-          "rowSpan": 14,
+          "rowSpan": 13,
           "width": 9,
-          "zIndex": 5,
+          "zIndex": 7,
           "fixedGrid": true,
           "hidden": false,
           "concept": "character",
@@ -684,23 +701,23 @@
             "[↗] Invisible",
             "• You have advantage on attacks and enemies have disadvantage attacking you, unless they can somehow see you."
           ],
-          "column": 22,
+          "column": 32,
           "row": 1,
-          "colSpan": 10,
+          "colSpan": 9,
           "rowSpan": 14,
-          "width": 10,
-          "zIndex": 10,
+          "width": 9,
+          "zIndex": 5,
           "fixedGrid": true,
           "hidden": false,
-          "subtitlePosition": "below",
+          "subtitlePosition": "beside",
           "concept": "reference"
         },
         {
           "title": "Jump distance",
           "subtitle": "Movement calculations at a glance.",
           "type": "dot-list",
-          "color": "#3e7c7a",
-          "columns": 1,
+          "color": "#b3299e",
+          "columns": 3,
           "items": [
             "[↗] Long jump",
             "• If you move at least 10 ft. immediately before the jump, cover a number of feet up to your Strength score.",
@@ -713,22 +730,35 @@
             "[⚖] Difficult terrain",
             "• Every foot of movement costs 1 extra foot when moving through difficult terrain."
           ],
-          "column": 11,
+          "column": 10,
           "row": 1,
-          "colSpan": 11,
-          "rowSpan": 17,
-          "width": 11,
+          "colSpan": 22,
+          "rowSpan": 8,
+          "width": 22,
           "zIndex": 9,
           "fixedGrid": true,
           "hidden": false,
-          "subtitlePosition": "below",
-          "concept": "combat"
-        }
-      ]
-    },
-    {
-      "title": "Encounter, world & gear",
-      "sections": [
+          "subtitlePosition": "beside",
+          "concept": "character",
+          "columnItems": [
+            [
+              "[↗] Long jump",
+              "• If you move at least 10 ft. immediately before the jump, cover a number of feet up to your Strength score.",
+              "• If you do not move 10 ft. first, jump only half that distance."
+            ],
+            [
+              "[↟] High jump",
+              "• If you move at least 10 ft. immediately before the jump, leap a number of feet equal to 3 + your Strength modifier.",
+              "• If you do not move 10 ft. first, jump only half that distance."
+            ],
+            [
+              "[◌] Reach",
+              "• Add your reach to the jump height if you can make an arm-assisted jump.",
+              "[⚖] Difficult terrain",
+              "• Every foot of movement costs 1 extra foot when moving through difficult terrain."
+            ]
+          ]
+        },
         {
           "title": "Improvised damage",
           "subtitle": "Quick damage guidance for hazards and accidents.",
@@ -741,17 +771,174 @@
             "4d10 — Hit by falling rubble in a collapsing cavern.",
             "10d10 — Crushed by compacting walls, hit by a crashing flying ship."
           ],
-          "column": 16,
+          "column": 1,
           "row": 17,
-          "colSpan": 11,
+          "colSpan": 9,
           "rowSpan": 11,
-          "width": 11,
-          "zIndex": 3,
+          "width": 9,
+          "zIndex": 10,
           "fixedGrid": true,
           "hidden": false,
           "concept": "conditions",
           "subtitlePosition": "below"
         },
+        {
+          "title": "Random mob situations",
+          "subtitle": "Roll a d12, then choose whether to fight, steal from, or outsmart the mob.",
+          "type": "table",
+          "icon": "◆",
+          "concept": "combat",
+          "color": "#3e7c7a",
+          "columns": 1,
+          "width": 15,
+          "height": 90,
+          "colSpan": 15,
+          "rowSpan": 32,
+          "column": 10,
+          "row": 9,
+          "zIndex": 6,
+          "fixedGrid": true,
+          "items": [
+            "d12  |  Mob  |  Quick stats  |  Fight / Steal / Outsmart",
+            "1  |  Goblin scouts  |  CR 1/4 · 50 XP · AC 15 · HP 7  |  Fight: ambush the lookouts. Steal: take their map or keys. Outsmart: fake a patrol order.",
+            "2  |  Kobold trap team  |  CR 1/8 · 25 XP · AC 12 · HP 5  |  Fight: avoid the trapped ground. Steal: lure them away with a shiny object. Outsmart: turn their trap back on them.",
+            "3  |  Bandit toll crew  |  CR 1/8 · 25 XP · AC 12 · HP 11  |  Fight: drop the leader or force a surrender. Steal: distract them from the toll chest. Outsmart: expose their employer's betrayal.",
+            "4  |  Skeleton patrol  |  CR 1/4 · 50 XP · AC 13 · HP 13  |  Fight: block the arrows. Steal: take the relic they guard. Outsmart: lure them into a narrow dead end.",
+            "5  |  Wolf pack  |  CR 1/4 · 50 XP · AC 13 · HP 11  |  Fight: protect isolated targets. Steal: bait them away from their cache. Outsmart: use fire, height, or a decoy.",
+            "6  |  Cultists at a ritual  |  CR 1/8 · 25 XP · AC 12 · HP 9  |  Fight: disrupt the ritual leader. Steal: take the relic while they chant. Outsmart: invent a false omen.",
+            "7  |  Giant spider  |  CR 1 · 200 XP · AC 14 · HP 26  |  Fight: avoid webs and focus the spider. Steal: cut free a cocooned item. Outsmart: lure it toward easier prey.",
+            "8  |  Harpy  |  CR 1 · 200 XP · AC 11 · HP 38  |  Fight: stop the song and deny high ground. Steal: take the shiny hoard while distracted. Outsmart: use a false voice or echo.",
+            "9  |  Bugbear enforcer  |  CR 1 · 200 XP · AC 16 · HP 27  |  Fight: prevent its ambush. Steal: redirect it toward a rival gang. Outsmart: exploit its overconfidence.",
+            "10  |  Mimic  |  CR 2 · 450 XP · AC 12 · HP 58  |  Fight: do not touch unknown treasure. Steal: identify and take the real prize. Outsmart: bait it with a better object.",
+            "11  |  Owlbear  |  CR 3 · 700 XP · AC 13 · HP 59  |  Fight: avoid the nest and control the terrain. Steal: take food or eggs only after a distraction. Outsmart: lure it away with a carcass.",
+            "12  |  Troll  |  CR 5 · 1800 XP · AC 15 · HP 84  |  Fight: use fire or acid to stop regeneration. Steal: enter while it hunts. Outsmart: lure it away with a bigger meal."
+          ],
+          "hidden": false,
+          "tableRows": [
+            {
+              "cells": [
+                "d12 ",
+                " Mob ",
+                " Quick stats ",
+                " Fight / Steal / Outsmart"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "1 ",
+                " Goblin scouts ",
+                " CR 1/4 · 50 XP · AC 15 · HP 7 ",
+                " Fight: ambush the lookouts. Steal: take their map or keys. Outsmart: fake a patrol order."
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "2 ",
+                " Kobold trap team ",
+                " CR 1/8 · 25 XP · AC 12 · HP 5 ",
+                " Fight: avoid the trapped ground. Steal: lure them away with a shiny object. Outsmart: turn their trap back on them."
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "3 ",
+                " Bandit toll crew ",
+                " CR 1/8 · 25 XP · AC 12 · HP 11 ",
+                " Fight: drop the leader or force a surrender. Steal: distract them from the toll chest. Outsmart: expose their employer's betrayal."
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "4 ",
+                " Skeleton patrol ",
+                " CR 1/4 · 50 XP · AC 13 · HP 13 ",
+                " Fight: block the arrows. Steal: take the relic they guard. Outsmart: lure them into a narrow dead end."
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "5 ",
+                " Wolf pack ",
+                " CR 1/4 · 50 XP · AC 13 · HP 11 ",
+                " Fight: protect isolated targets. Steal: bait them away from their cache. Outsmart: use fire, height, or a decoy."
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "6 ",
+                " Cultists at a ritual ",
+                " CR 1/8 · 25 XP · AC 12 · HP 9 ",
+                " Fight: disrupt the ritual leader. Steal: take the relic while they chant. Outsmart: invent a false omen."
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "7 ",
+                " Giant spider ",
+                " CR 1 · 200 XP · AC 14 · HP 26 ",
+                " Fight: avoid webs and focus the spider. Steal: cut free a cocooned item. Outsmart: lure it toward easier prey."
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "8 ",
+                " Harpy ",
+                " CR 1 · 200 XP · AC 11 · HP 38 ",
+                " Fight: stop the song and deny high ground. Steal: take the shiny hoard while distracted. Outsmart: use a false voice or echo."
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "9 ",
+                " Bugbear enforcer ",
+                " CR 1 · 200 XP · AC 16 · HP 27 ",
+                " Fight: prevent its ambush. Steal: redirect it toward a rival gang. Outsmart: exploit its overconfidence."
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "10 ",
+                " Mimic ",
+                " CR 2 · 450 XP · AC 12 · HP 58 ",
+                " Fight: do not touch unknown treasure. Steal: identify and take the real prize. Outsmart: bait it with a better object."
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "11 ",
+                " Owlbear ",
+                " CR 3 · 700 XP · AC 13 · HP 59 ",
+                " Fight: avoid the nest and control the terrain. Steal: take food or eggs only after a distraction. Outsmart: lure it away with a carcass."
+              ],
+              "separator": true
+            },
+            {
+              "cells": [
+                "12 ",
+                " Troll ",
+                " CR 5 · 1800 XP · AC 15 · HP 84 ",
+                " Fight: use fire or acid to stop regeneration. Steal: enter while it hunts. Outsmart: lure it away with a bigger meal."
+              ],
+              "separator": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Encounter, world & gear",
+      "sections": [
         {
           "title": "Player hooks",
           "subtitle": "One card per player, with two cards across.",
@@ -759,22 +946,73 @@
           "color": "#b3299e",
           "columns": 1,
           "items": [
-            "Player | Good 1 | Good 2 | Bad",
-            "Player 1 | | |",
-            "Player 2 | | |",
-            "Player 3 | | |",
-            "Player 4 | | |",
-            "Player 5 | | |"
+            "Player  |  Good 1  |  Good 2  |  Bad",
+            " |   |   | ",
+            " |   |   | ",
+            " |   |   | ",
+            " |   |   | ",
+            " |   |   | "
           ],
           "column": 27,
           "row": 1,
           "colSpan": 14,
-          "rowSpan": 27,
+          "rowSpan": 25,
           "width": 14,
-          "zIndex": 8,
+          "zIndex": 10,
           "fixedGrid": true,
           "hidden": false,
-          "concept": "character"
+          "concept": "character",
+          "tableRows": [
+            {
+              "cells": [
+                "Player ",
+                " Good 1 ",
+                " Good 2 ",
+                " Bad"
+              ],
+              "separator": false
+            },
+            {
+              "cells": [
+                "",
+                " ",
+                " ",
+                ""
+              ]
+            },
+            {
+              "cells": [
+                "",
+                " ",
+                " ",
+                ""
+              ]
+            },
+            {
+              "cells": [
+                "",
+                " ",
+                " ",
+                ""
+              ]
+            },
+            {
+              "cells": [
+                "",
+                " ",
+                " ",
+                ""
+              ]
+            },
+            {
+              "cells": [
+                "",
+                " ",
+                " ",
+                ""
+              ]
+            }
+          ]
         },
         {
           "title": "NPC list",
@@ -795,12 +1033,12 @@
             "9 | Ilyra | Spy, DEX +4",
             "10 | Joren | Hunter, WIS +2"
           ],
-          "column": 18,
-          "row": 1,
-          "colSpan": 9,
-          "rowSpan": 16,
-          "width": 9,
-          "zIndex": 9,
+          "column": 27,
+          "row": 17,
+          "colSpan": 11,
+          "rowSpan": 24,
+          "width": 11,
+          "zIndex": 8,
           "fixedGrid": true,
           "hidden": false,
           "concept": "conditions",
@@ -826,10 +1064,10 @@
           ],
           "column": 1,
           "row": 1,
-          "colSpan": 14,
-          "rowSpan": 14,
-          "width": 14,
-          "zIndex": 5,
+          "colSpan": 11,
+          "rowSpan": 16,
+          "width": 11,
+          "zIndex": 9,
           "fixedGrid": true,
           "hidden": false,
           "concept": "reference",
@@ -850,109 +1088,8 @@
           ]
         },
         {
-          "title": "Spell slots available",
-          "subtitle": "Reference for which spell levels have slots available.",
-          "type": "table",
-          "color": "#238ac0",
-          "columns": 1,
-          "items": [
-            "Spell level  |  Slots available",
-            "1st   | 4",
-            "2nd   | 3",
-            "3rd   | 3",
-            "4th   | 3",
-            "5th   | 2",
-            "6th   | 1",
-            "7th   | 1",
-            "8th   | 1",
-            "9th   | 1"
-          ],
-          "column": 1,
-          "row": 26,
-          "colSpan": 8,
-          "rowSpan": 13,
-          "width": 8,
-          "zIndex": 4,
-          "fixedGrid": true,
-          "hidden": false,
-          "concept": "exploration",
-          "tableRows": [
-            {
-              "cells": [
-                "Spell level ",
-                " Slots available"
-              ],
-              "separator": false
-            },
-            {
-              "cells": [
-                "1st  ",
-                "4"
-              ],
-              "separator": false
-            },
-            {
-              "cells": [
-                "2nd  ",
-                "3"
-              ],
-              "separator": false
-            },
-            {
-              "cells": [
-                "3rd  ",
-                "3"
-              ],
-              "separator": false
-            },
-            {
-              "cells": [
-                "4th  ",
-                "3"
-              ],
-              "separator": false
-            },
-            {
-              "cells": [
-                "5th  ",
-                "2"
-              ],
-              "separator": true
-            },
-            {
-              "cells": [
-                "6th  ",
-                "1"
-              ],
-              "separator": false
-            },
-            {
-              "cells": [
-                "7th  ",
-                "1"
-              ],
-              "separator": false
-            },
-            {
-              "cells": [
-                "8th  ",
-                "1"
-              ],
-              "separator": false
-            },
-            {
-              "cells": [
-                "9th  ",
-                "1"
-              ],
-              "separator": false
-            }
-          ],
-          "subtitlePosition": "below"
-        },
-        {
-          "title": "Common bought things",
-          "subtitle": "Prices worth having ready.",
+          "title": "Common things",
+          "subtitle": "",
           "type": "table",
           "color": "#238ac0",
           "columns": 1,
@@ -970,12 +1107,12 @@
             "Tent | 2 GP",
             "Caltrops | 1 GP"
           ],
-          "column": 24,
-          "row": 25,
-          "colSpan": 9,
-          "rowSpan": 16,
-          "width": 9,
-          "zIndex": 1,
+          "column": 21,
+          "row": 11,
+          "colSpan": 6,
+          "rowSpan": 15,
+          "width": 6,
+          "zIndex": 4,
           "fixedGrid": true,
           "hidden": false,
           "concept": "exploration",
@@ -999,12 +1136,12 @@
             "[◌] Odd sound",
             "• A bell, tapping, distant singing, scraping, or sudden silence."
           ],
-          "column": 33,
-          "row": 25,
-          "colSpan": 8,
+          "column": 1,
+          "row": 17,
+          "colSpan": 11,
           "rowSpan": 16,
-          "width": 8,
-          "zIndex": 6,
+          "width": 11,
+          "zIndex": 1,
           "fixedGrid": true,
           "hidden": false,
           "concept": "conditions",
@@ -1024,23 +1161,39 @@
             "[✹] Falling damage",
             "• 1d6 bludgeoning damage per 10 feet fallen, maximum 20d6.",
             "[☠] Death save",
-            "• d20: 10+ is a success, 9 or lower is a failure; a natural 20 restores 1 HP."
+            "• d20: 10+ is a success, 9 or lower is a failure; a natural 20 restores 1 HP.",
+            "[🛡] Concentration check",
+            "• CON save vs 10 or half damage (max DC 30); fail and the spell ends.",
+            "[🌙] Short & long rest",
+            "• Short rest uses Hit Dice to heal; long rest restores all HP and half your total Hit Dice."
           ],
-          "column": 1,
-          "row": 15,
+          "column": 12,
+          "row": 26,
           "colSpan": 14,
-          "rowSpan": 11,
+          "rowSpan": 15,
           "width": 14,
-          "zIndex": 10,
+          "zIndex": 6,
           "fixedGrid": true,
           "hidden": false,
-          "concept": "combat"
-        }
-      ]
-    },
-    {
-      "title": "Page 4",
-      "sections": [
+          "concept": "combat",
+          "subtitlePosition": "below",
+          "columnItems": [
+            [
+              "[⌖] Passive score",
+              "• 10 + all modifiers that normally apply to the check.",
+              "[⚖] Advantage / disadvantage",
+              "• Roll two d20s; use the higher roll with advantage or lower roll with disadvantage.",
+              "[✹] Falling damage",
+              "• 1d6 bludgeoning damage per 10 feet fallen, maximum 20d6.",
+              "[☠] Death save",
+              "• d20: 10+ is a success, 9 or lower is a failure; a natural 20 restores 1 HP.",
+              "[🛡] Concentration check",
+              "• CON save vs 10 or half damage (max DC 30); fail and the spell ends.",
+              "[🌙] Short & long rest",
+              "• Short rest uses Hit Dice to heal; long rest restores all HP and half your total Hit Dice."
+            ]
+          ]
+        },
         {
           "title": "Remember the villain",
           "subtitle": "Questions that make an antagonist feel real.",
@@ -1058,15 +1211,15 @@
             "• What would make them abandon their goal?",
             "• What do they fear losing more than they want to win?"
           ],
-          "column": 1,
-          "row": 18,
-          "colSpan": 11,
-          "rowSpan": 11,
-          "width": 11,
-          "zIndex": 1,
+          "column": 12,
+          "row": 1,
+          "colSpan": 15,
+          "rowSpan": 10,
+          "width": 15,
+          "zIndex": 11,
           "fixedGrid": true,
           "hidden": false,
-          "subtitlePosition": "below",
+          "subtitlePosition": "beside",
           "concept": "conditions"
         },
         {
@@ -1090,15 +1243,15 @@
             "11 | Sealed mine entrance",
             "12 | Isolated hunter’s cabin"
           ],
-          "column": 13,
-          "row": 24,
-          "colSpan": 10,
-          "rowSpan": 17,
-          "width": 10,
-          "zIndex": 3,
+          "column": 12,
+          "row": 11,
+          "colSpan": 9,
+          "rowSpan": 15,
+          "width": 9,
+          "zIndex": 12,
           "fixedGrid": true,
           "hidden": false,
-          "subtitlePosition": "below",
+          "subtitlePosition": "beside",
           "concept": "exploration"
         }
       ]
